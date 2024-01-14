@@ -1,4 +1,4 @@
-# Page 6
+# \[NestJS] DI / IOC 의존성 주입과 제어의 역전
 
 Dependency Injection (의존성 주입) 과 Inversion Of Control (제어의 역전) 에 대해 알아보기 전에
 
