@@ -15,6 +15,8 @@
 
 ## ReduxJS
 
+* [Redux 핵심 개념과 Flux 아키텍쳐](reduxjs/redux-flux.md)
+
 ## NextJS
 
 * [Page 4](nextjs/page-4.md)
