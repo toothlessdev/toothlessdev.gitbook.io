@@ -23,7 +23,7 @@
 
 ## NestJS
 
-* [\[NestJS\] DI / IOC 의존성 주입과 제어의 역전](nestjs/nestjs-di-ioc.md)
+* [DI / IOC 의존성 주입과 제어의 역전](nestjs/di-ioc.md)
 
 ## DevLog
 
