@@ -11,19 +11,13 @@
   * [Page 1](next-js/page-1.md)
 * [Nest JS](nest-js/README.md)
   * [DI / IOC 의존성 주입과 제어의 역전](nest-js/di-ioc.md)
-  * [NestJS TypeORM Module 설정](nest-js/nestjs-typeorm-module.md)
+  * [NestJS TypeORM 연동하기](nest-js/nestjs-typeorm.md)
 * [Redux JS](redux-js/README.md)
   * [Redux 핵심 개념과 Flux 아키텍쳐](redux-js/redux-flux.md)
   * [Toolkit 없이 React 에서 Redux 사용하기](redux-js/toolkit-react-redux.md)
-
-## JavaScript / TypeScript
-
-* [브라우저 렌더링 과정](javascript-typescript/undefined.md)
-
-***
-
 * [ReactiveX JS](reactivex-js/README.md)
   * [RxJS 와 반응형 프로그래밍](reactivex-js/rxjs.md)
+* [브라우저 렌더링 과정](undefined.md)
 
 ## DevLog
 
