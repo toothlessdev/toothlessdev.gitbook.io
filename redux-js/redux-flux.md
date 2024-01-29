@@ -11,7 +11,7 @@ React 가 왜 / 어떻게 발전하며 만들어졌는지에 대해 알고 있�
 
 Meta (Facebook) 에서는 기존에 PHP 를 이용해 웹 애플리케이션을 개발했었습니다.&#x20;
 
-PHP 기반의 백엔드 프레임워크는 기본적으로 MVC (Model - View - Controller) 아키텍쳐를 따르고 있는데, MVC 아키텍쳐는 소프트웨어를 Model / View / Controller 세 가지 구성요소로 분리하여 개발하는 아키텍쳐입니다.
+PHP 기반의 웹 프레임워크는 기본적으로 MVC (Model - View - Controller) 아키텍쳐를 따르고 있는데, MVC 아키텍쳐는 소프트웨어를 Model / View / Controller 세 가지 구성요소로 분리하여 개발하는 아키텍쳐입니다.
 
 > **모델 (Model)** : 데이터 / 비즈니스 로직을 나타내고, 데이터베이스에서 데이터를 가져오거나, 갱신하는 역할을 합니다.
 >
@@ -19,7 +19,7 @@ PHP 기반의 백엔드 프레임워크는 기본적으로 MVC (Model - View - C
 >
 > **컨트롤러 (Controller)** : Model 과 View 사이의 상호작용을 관리합니다. 사용자의 요청 / 입력을 받아 Model 을 업데이트하고, 그에 따른 View 를 갱신하는 작업을 합니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
 하지만, 애플리케이션의 규모가 커지면서, MVC 구조는 점점 더 복잡해져 갔습니다.
 
@@ -37,7 +37,7 @@ PHP 기반의 백엔드 프레임워크는 기본적으로 MVC (Model - View - C
 
 라는 단점으로 다가왔습니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 실제로 Meta (Facebook) 에서는, Facebook에 접속해서 메시지 혹은 댓글 알림에 숫자가 떠있어서 클릭해보면 아무런 메시지가 없는 버그가 발생한 적이 있었습니다. 클릭하면 알림은 사라지지만, 잠시 후에 알림이 다시 나타나고 클릭해보면 아무런 메시지가 없는 버그였습니다.
 
@@ -55,6 +55,8 @@ PHP 기반의 백엔드 프레임워크는 기본적으로 MVC (Model - View - C
 
 ### ✏️ Container-Presenter 패턴
 
+하지만 Component 패턴도 한계가 존재했습니다.
+
 컴포넌트에 비즈니스 로직이 들어가게 되면 컴포넌트의 재사용성이 떨어지는 경험이 한번씩 있을겁니다.
 
 이때문에, 컴포넌트는 재사용이 가능해야 한다는 원칙에 따라 가급적 비즈니스 로직을 포함시키지 않으려고 개발을 진행하게 되었습니다.
@@ -65,9 +67,9 @@ PHP 기반의 백엔드 프레임워크는 기본적으로 MVC (Model - View - C
 
 
 
-하지만, Container-Presenter 패턴을 이용해 만들었을때, 컴포넌트 구조가 복잡해짐에 따라, 하위 컴포넌트에 값을 전달하기 위해, <mark style="background-color:yellow;">Props Drilling Problem</mark> 이 발생하게 됍니다.
+하지만, Container-Presenter 패턴을 이용해 만들었을때, 컴포넌트 구조가 복잡해짐에 따라, 하위 컴포넌트에 값을 전달하기 위해, <mark style="background-color:yellow;">Props Drilling Problem</mark> 이 발생하게 됩니다.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### ✏️ Flux 아키텍쳐
 
@@ -75,9 +77,9 @@ Container-Presenter 패턴에서 발생한 Prop Drilling 을 통해 데이터를
 
 그래서 단방향 데이터 흐름을 활용한 리액트용 애플리케이션 아키텍쳐인 Flux 아키텍쳐가 탄생했습니다.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Action 데이터를 변화시키려는 동작이 발생하면\
+데이터를 변화시키려는 동작(Action) 이 발생하면\
 Dispatcher 는 Action 을 받아 Redux 에 Action 이 발생했음을 알리고,\
 변화된 데이터가 Store에 저장되면 View 에서 데이터를 가져와서 보여줍니다
 
@@ -149,7 +151,7 @@ Redux 는 다음과 같은 요소로 구성되어 있습니다.
 
 Redux 의 구성요소와 함께 Flux 아키텍쳐가 어떻게 적용되어 Redux 의 상태가 변화하고, View 에 반영되는지 이전에 봤던 그림과 함께 알아보겠습니다.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. 먼저 View 에서 Action 이 만들어지고 Dispatch 됍니다
 2. Dispatch 된 Action 은 현재 state 와 함께 Reducer 로 전달되고
