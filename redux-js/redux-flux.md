@@ -180,7 +180,17 @@ Redux 의 구성요소와 함께 Flux 아키텍쳐가 어떻게 적용되어 Red
 What, Why and When Should You Use ReactJS: A Complete Guide\
 [https://weblineindia.com/blog/everything-you-should-know-about-reactjs/](https://weblineindia.com/blog/everything-you-should-know-about-reactjs/)
 
-프론트엔드에서 MV\* 아키텍쳐란 무엇인가요?[https://velog.io/@teo/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-MV-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94#%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EA%B7%B8%EB%A6%AC%EA%B3%A0-container-presenter-%ED%8C%A8%ED%84%B4](https://velog.io/@teo/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-MV-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94#%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EA%B7%B8%EB%A6%AC%EA%B3%A0-container-presenter-%ED%8C%A8%ED%84%B4)
+React is MVC or MVVM? - Reddit\
+[https://www.reddit.com/r/reactjs/comments/hbvy47/react\_is\_mvc\_or\_mvvm/](https://www.reddit.com/r/reactjs/comments/hbvy47/react\_is\_mvc\_or\_mvvm/)
+
+JavaScript Technical Interview Question : is React MVC or MVVM\
+[https://medium.com/developers-tomorrow/javascript-interview-question-is-react-an-mvc-or-mvvm-ac2ea2a5127d](https://medium.com/developers-tomorrow/javascript-interview-question-is-react-an-mvc-or-mvvm-ac2ea2a5127d)
+
+presentational and container 패턴이란 무엇인가\
+[https://tecoble.techcourse.co.kr/post/2021-04-26-presentational-and-container/](https://tecoble.techcourse.co.kr/post/2021-04-26-presentational-and-container/)
+
+patterns.dev - Container / Presenter Pattern\
+[https://www.patterns.dev/react/presentational-container-pattern](https://www.patterns.dev/react/presentational-container-pattern)
 
 Flux Concepts - Facebook Archive\
 [https://github.com/facebookarchive/flux/tree/main/examples/flux-concepts](https://github.com/facebookarchive/flux/tree/main/examples/flux-concepts)\
