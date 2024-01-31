@@ -30,7 +30,7 @@ const myVariable;
 
 자바스크립트에서는 자바스크립트 엔진에 의해 식별자가 가리키는 실제 메모리 공간에는 undefined 가 할당됍니다
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 자바스크립트 엔진은
 
@@ -87,7 +87,7 @@ myVariable = "재할당";
 >
 > 변수의 값을 변경하는 대신, 새로운 메모리 공간을 할당하고, 변경된 값을 저장합니다
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 기존에 있던 메모리 공간은 자바스크립트의 <mark style="background-color:orange;">**가비지콜렉터**</mark>에 의해 할당이 해제됍니다.
 

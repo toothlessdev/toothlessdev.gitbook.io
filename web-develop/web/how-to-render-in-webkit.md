@@ -1,4 +1,4 @@
-# 브라우저 렌더링 과정
+# 브라우저 렌더링 과정 How to render in Webkit
 
 WebKit 이 무엇인가
 
@@ -16,11 +16,11 @@ webcore : rendering, layout, painting, dom, bindings, ...
 
 javascript core / v8 : js engine, js execution
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 platform = all the hooks for talking to the operating system
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -38,7 +38,7 @@ most of the code is inside webcore loader
 
 
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 
 
