@@ -1,12 +1,16 @@
 # 변수와 데이터 타입
 
+> 이 포스트는 모던 자바스크립트 Deep Dive 를 공부하면서 정리한 글입니다
+
+
+
 ## 📖 변수와 상수
 
 변수는 하나의 값을 저장하기 위해 확보한 메모리 공간 또는 메모리 공간을 식별하기 위해 붙인 이름을 말합니다.
 
 프로그래밍에서 값을 저장하고 참조하는, 값의 위치를 가리키는 이름입니다.
 
-변수는 컴파일러 또는 인터프리터에 의해 메모리 공간의 주소로 치환되어 실행되는데, 덕분에 개발자는 변수를 통해 안전하게 값에 접근할 수 있습니다!
+변수는 컴파일러 또는 인터프리터에 의해 메모리 공간의 주소로 치환되어 실행되는데, 덕분에 개발자는 변수를 통해 안전하게 값에 접근할 수 있습니다
 
 
 
@@ -26,7 +30,7 @@ const myVariable;
 
 자바스크립트에서는 자바스크립트 엔진에 의해 식별자가 가리키는 실제 메모리 공간에는 undefined 가 할당됍니다
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 자바스크립트 엔진은
 
@@ -207,7 +211,8 @@ symbol 타입은, 변경 불가능한 원시 타입의 값으로, 다른 값과 
 
 ## 🔗 참고자료
 
-모던 자바스크립트 딥다이브 Ch04 변수
+모던 자바스크립트 딥다이브 Ch04 변수\
+모던 자바스크립트 딥다이브 Ch05 데이터 타입
 
 모던 JavaScript 튜토리얼 - 변수와 상수\
 [https://ko.javascript.info/variables](https://ko.javascript.info/variables)
