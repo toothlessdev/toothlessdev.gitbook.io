@@ -388,3 +388,14 @@ React 톺아보기 - Preview\
 Vanila JS 로 가상돔 (Virtual DOM) 만들기\
 [https://junilhwang.github.io/TIL/Javascript/Design/Vanilla-JS-Virtual-DOM/](https://junilhwang.github.io/TIL/Javascript/Design/Vanilla-JS-Virtual-DOM/)
 
+React Lifecycle Method Diagram\
+[https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+React Hooks Lifecycle\
+[https://wavez.github.io/react-hooks-lifecycle/](https://wavez.github.io/react-hooks-lifecycle/)
+
+How Does React Actually Work? ReactJS Deep Dive #1\
+[https://www.youtube.com/watch?v=7YhdqIR2Yzo\&ab\_channel=PhilipFabianek](https://www.youtube.com/watch?v=7YhdqIR2Yzo\&ab\_channel=PhilipFabianek)
+
+
+

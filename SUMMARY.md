@@ -12,7 +12,7 @@
   * [Virtual DOM , React Fiber Tree와 리액트 렌더링](react-js/virtual-dom-react-fiber-tree.md)
   * [React CSS IN JS](react-js/react-css-in-js.md)
 * [Next JS](next-js/README.md)
-  * [Page 1](next-js/page-1.md)
+  * [NextJS SSG 정적사이트로 GithubPages 연동하기](next-js/nextjs-ssg-githubpages.md)
 * [Nest JS](nest-js/README.md)
   * [DI / IOC 의존성 주입과 제어의 역전](nest-js/di-ioc.md)
   * [NestJS TypeORM 연동하기](nest-js/nestjs-typeorm.md)
