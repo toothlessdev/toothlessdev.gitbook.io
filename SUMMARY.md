@@ -41,6 +41,7 @@
 ## DevLog
 
 * [2023 회고 및 2024년 계획](devlog/2023-2024.md)
+* [Page](devlog/page.md)
 * [React-State-Management을 위한 MonoRepo 구성](devlog/react-state-management-monorepo.md)
 * [\[DEBUG\] ReduxToolkit ThunkAction dispatch 할때 타입 에러해결](devlog/debug-reduxtoolkit-thunkaction-dispatch.md)
 * [\[DEVLOG\] Atomic 컴포넌트 디자인 패턴 도입기](devlog/devlog-atomic.md)
