@@ -45,4 +45,4 @@
 * [React-State-Management을 위한 MonoRepo 구성](devlog/react-state-management-monorepo.md)
 * [\[DEBUG\] ReduxToolkit ThunkAction dispatch 할때 타입 에러해결](devlog/debug-reduxtoolkit-thunkaction-dispatch.md)
 * [\[DEVLOG\] Atomic 컴포넌트 디자인 패턴 도입기](devlog/devlog-atomic.md)
-* [\[DEVLOG\] 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기](devlog/devlog.md)
+* [\[DEVLOG\] tsyringe로 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기](devlog/devlog-tsyringe.md)
