@@ -80,12 +80,22 @@ query 객체는 각 동적경로를 배열로 받아옵니다
 
 
 
+### ✏️ 404 Not Found Page 추가하기
+
+`pages/404.jsx` 에 라우팅시 존재하지 않는 페이지 컴포넌트를 표시할 수 있습니다.
+
+
+
 
 
 ## 📖 NextJS 의 Client Side Routing
 
 `<a href=""></a>` 를 이용하여 페이지를 이동하는경우, 새로운 HTTP 요청을 보내게 되고\
 State, Context, 전역 상태가 초기화됍니다.
+
+
+
+### ✏️ Link 컴포넌트
 
 NextJS 에서 Client Side Routing 을 위해서는`<a>` 대신 `<Link>` 컴포넌트를 사용해야 합니다.
 
@@ -111,42 +121,53 @@ export function NavBar () {
 }
 ```
 
+Link 의 props
 
-
-replace : boolean  참일경우 이전 방문한 페이지 라우트에 대한 기록이 교체되어 뒤로가기 불가능
-
-```tsx
-import Link from "next/link";
-
-<Link href=""></Link>
-```
-
-
-
-href props 에는 객체가 들어갈 수 있ㅇ므
+href : 이동할 경로입니다. 문자열 또는 경로 객체가 들어갈 수 있습니다.
 
 ```tsx
 <Link href={{
     pathname : "/path/[id]",
     query: {id : path.id}
-}}></Link>
+}}/>
 ```
 
+**replace** : 기본값은 false 이고, true 일 경우 Link 로 이동시 브라우저 히스토리 스택이 교체되고,\
+이전 방문한 페이지 라우트가 교체되어 뒤로가기가 불가능해집니다.
 
-
-* useRouter router 객체를 활용한 네비게이팅
-
-router.push();
-
-router.replace() 이동후 뒤돌아가기 불가능
-
-매개변수로 path 에 대한 문자열 또는 path object (위에있는거) 로 이동가능함
+**scroll** : 기본값은 true 이고 Link 이동시 스크롤이 최상단으로 설정됍니다. false 일 경우 이전 페이지 스크롤 위치가 유지됍니다.
 
 
 
-* 404 페이지 꾸미기
+### ✏️ useRouter
 
-404.jsx
+컴포넌트가 아닌, 이벤트 리스너와 같은 곳에서 네비게이팅이 필요할 경우 `useRouter` 훅을 사용하면 됍니다.\
+훅이기 때문에 함수형 컴포넌트에서 선언하여 사용가능합니다.
+
+```tsx
+import { useRouter } from "next/router";
+
+export default function MyComponent() {
+    const router = useRouter();
+    
+    const handler = (e: Event) => {
+        router.push();
+        router.replace();
+    }
+}
+```
+
+**router.push();**\
+브라우저 히스토리 스택에 다음 페이지에 대한 라우트를 푸시 합니다. 이전 페이지로 돌아갈 수 있습니다.
+
+**router.replace();**\
+브라우저 히스토리 스택을 교체합니다. 따라서 이동후 뒤돌아가기가 불가능합니다.
+
+push 와 replace 도 동일하게 이동할 경로에 대한 문자열 또는 경로 객체가 들어갈 수 있습니다.
+
+
+
+
 
 ## 🔗 참고자료
 

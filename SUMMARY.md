@@ -13,7 +13,7 @@
   * [리액트는 항상 단방향으로 데이터가 흐를까 ? useImperativeHandle](web-develop/react-js/useimperativehandle.md)
   * [Virtual DOM , React Fiber Tree와 리액트 렌더링](web-develop/react-js/virtual-dom-react-fiber-tree.md)
   * [React CSS IN JS](web-develop/react-js/react-css-in-js.md)
-  * [React 에서 데이터 페칭하는 여러가지 방법들](web-develop/react-js/react.md)
+  * [tsyringe 로 리액트에서 싱글톤 패턴을 사용해 레이어드 아키텍쳐 분리하기](web-develop/react-js/tsyringe.md)
 * [Next JS](web-develop/next-js/README.md)
   * [NextJS SSG 정적사이트로 GithubPages 연동하기](web-develop/next-js/nextjs-ssg-githubpages.md)
   * [NextJS Pages 라우터](web-develop/next-js/nextjs-pages.md)
@@ -34,7 +34,8 @@
   * [Page 1](computer-science/algorithm/page-1.md)
 * [Data Structure](computer-science/data-structure/README.md)
   * [Page 2](computer-science/data-structure/page-2.md)
-* [DataBase](computer-science/database.md)
+* [DataBase](computer-science/database/README.md)
+  * [Page 3](computer-science/database/page-3.md)
 * [Operating System](computer-science/operating-system.md)
 
 ## DevLog
@@ -43,3 +44,4 @@
 * [React-State-Management을 위한 MonoRepo 구성](devlog/react-state-management-monorepo.md)
 * [\[DEBUG\] ReduxToolkit ThunkAction dispatch 할때 타입 에러해결](devlog/debug-reduxtoolkit-thunkaction-dispatch.md)
 * [\[DEVLOG\] Atomic 컴포넌트 디자인 패턴 도입기](devlog/devlog-atomic.md)
+* [\[DEVLOG\] 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기](devlog/devlog.md)
