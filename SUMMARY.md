@@ -4,10 +4,11 @@
 
 * [Web](README.md)
   * [브라우저 렌더링 과정 How to render in Webkit](web-develop/web/how-to-render-in-webkit.md)
-  * [CSS 반응형](web-develop/web/css.md)
+  * [Margin vs Padding 어떤걸 써야 할까?](web-develop/web/margin-vs-padding.md)
 * [JavaScript](web-develop/javascript/README.md)
   * [변수와 데이터 타입](web-develop/javascript/undefined.md)
-  * [메모리와 가비지 컬렉터](web-develop/javascript/undefined-1.md)
+  * [연산자와 타입변환, 단축평가](web-develop/javascript/undefined-1.md)
+  * [메모리와 가비지 컬렉터](web-develop/javascript/undefined-2.md)
 * [React JS](web-develop/react-js/README.md)
   * [useState 와 useRef](web-develop/react-js/usestate-useref.md)
   * [리액트는 항상 단방향으로 데이터가 흐를까 ? useImperativeHandle](web-develop/react-js/useimperativehandle.md)
@@ -17,6 +18,7 @@
 * [Next JS](web-develop/next-js/README.md)
   * [NextJS SSG 정적사이트로 GithubPages 연동하기](web-develop/next-js/nextjs-ssg-githubpages.md)
   * [NextJS Pages 라우터](web-develop/next-js/nextjs-pages.md)
+  * [getStaticProps, getStaticPaths 로 SSG ISR 적용하기](web-develop/next-js/getstaticprops-getstaticpaths-ssg-isr.md)
 * [Nest JS](web-develop/nest-js/README.md)
   * [DI / IOC 의존성 주입과 제어의 역전](web-develop/nest-js/di-ioc.md)
   * [NestJS TypeORM 연동하기](web-develop/nest-js/nestjs-typeorm.md)
@@ -40,9 +42,10 @@
 
 ## DevLog
 
-* [2023 회고 및 2024년 계획](devlog/2023-2024.md)
-* [Page](devlog/page.md)
-* [React-State-Management을 위한 MonoRepo 구성](devlog/react-state-management-monorepo.md)
-* [\[DEBUG\] ReduxToolkit ThunkAction dispatch 할때 타입 에러해결](devlog/debug-reduxtoolkit-thunkaction-dispatch.md)
-* [\[DEVLOG\] Atomic 컴포넌트 디자인 패턴 도입기](devlog/devlog-atomic.md)
-* [\[DEVLOG\] tsyringe로 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기](devlog/devlog-tsyringe.md)
+* [DEVLOG 개발일지](devlog/devlog/README.md)
+  * [Atomic 컴포넌트 디자인 패턴 도입기](devlog/devlog/atomic.md)
+  * [tsyringe로 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기](devlog/devlog/tsyringe.md)
+  * [2023 회고 및 2024년 계획](devlog/devlog/2023-2024.md)
+  * [\[Stocodi\] Vite 에서 NextJS 로 마이그레이션](devlog/devlog/stocodi-vite-nextjs.md)
+* [DEBUG 디버깅일지](devlog/debug/README.md)
+  * [\[DEBUG\] ReduxToolkit ThunkAction dispatch 할때 타입 에러해결](devlog/debug/debug-reduxtoolkit-thunkaction-dispatch.md)

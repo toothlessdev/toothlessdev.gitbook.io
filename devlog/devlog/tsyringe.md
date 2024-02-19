@@ -1,4 +1,4 @@
-# \[DEVLOG] 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기
+# tsyringe로 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기
 
 ## ❎ 사건의 발단
 
@@ -180,7 +180,7 @@ export default function LecturePage() {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 잘된다!
 
