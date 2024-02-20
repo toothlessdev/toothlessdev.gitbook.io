@@ -33,7 +33,7 @@
 ## Computer Science
 
 * [Algorithm](computer-science/algorithm/README.md)
-  * [Page 1](computer-science/algorithm/page-1.md)
+  * [NodeJS 로 코딩테스트 문제 해결하기](computer-science/algorithm/nodejs.md)
 * [Data Structure](computer-science/data-structure/README.md)
   * [Page 2](computer-science/data-structure/page-2.md)
 * [DataBase](computer-science/database/README.md)
