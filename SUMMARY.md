@@ -23,6 +23,7 @@
 * [Nest JS](web-develop/nest-js/README.md)
   * [DI / IOC 의존성 주입과 제어의 역전](web-develop/nest-js/di-ioc.md)
   * [NestJS TypeORM 연동하기](web-develop/nest-js/nestjs-typeorm.md)
+  * [관계형 데이터베이스와 TypeORM Column](web-develop/nest-js/typeorm-column.md)
   * [NestJS Controller](web-develop/nest-js/nestjs-controller.md)
 * [Redux JS](web-develop/redux-js/README.md)
   * [Redux 핵심 개념과 Flux 아키텍쳐](web-develop/redux-js/redux-flux.md)
