@@ -57,9 +57,75 @@ export class PostController {
 
 ### ✏️ HTTP Method
 
-REST API 에는&#x20;
+REST API 에서는 자원에 대한 행위를 Method 로 표현하고\
+Method 에는 `GET` `POST` `PUT` `PATCH` `DELETE` 가 있습니다.
 
-## 📖 nest cli 을 통ㅎ
+[rest-api-rest.md](../web/rest-api-rest.md "mention")
+
+
+
+### ✏️ @Param 으로 동적 파라미터 받아오기
+
+HTTP Method 데코레이터로 `:` 과 함께 문자열을 넘겨주는경우, 동적 파라미터에 대한 요청을 처리할 수 있습니다.\
+Controller 메서드의 파라미터로 `@Param()` 을 전달하는경우, 요청시 동적 파라미터를 받아올 수 있습니다.
+
+```typescript
+import { Controller, Get } from '@nestjs/common';
+
+@Controller("posts")
+export class PostController {
+    @Get(":id")
+    public readPostById(@Param("id") id : string) {
+        return //...
+    }
+}
+```
+
+`/posts/1` 로 요청을 보내는 경우, id 로 1 을 받을 수 있습니다.
+
+
+
+### ✏️ @Body 로 요청 Body 받아오기
+
+Controller 메서드의 파라미터로 `@Body()` 를 전달하는경우, 요청시 Body 값을 받아올 수 있습니다.
+
+```typescript
+import { Controller, Post } from '@nestjs/common';
+
+@Controller("posts")
+export class PostController {
+    @Post()
+    public createPost(@Body("title") title:string, @Body("content") content:string) {
+        return //...
+    }
+}
+```
+
+DTO (Data Transfer Object) 를 통해 요청 Body 값을 전달 할 수도 있습니다.
+
+```typescript
+export class CreatePostDto {
+    title:string;
+    content:string;
+}
+
+@Controller("posts")
+export class PostController {
+    @Post()
+    public createPost(@Body() createPostDto:CreatePostDto) {
+        return //...
+    }
+}
+```
+
+
+
+### ✏️ 요청, 응답 객체 받아오기
+
+`@Request()` 또는 `@Req()` 를 통해 요청 객체를 받아올 수 있습니다.\
+`@Response()` 또는 `@Res()` 를 통해 응답 객체를 받아올 수 있습니다.
+
+
 
 ## 🔗 참고자료
 
