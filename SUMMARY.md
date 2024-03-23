@@ -50,8 +50,10 @@
   * [Page 3](computer-science/database/page-3.md)
 * [Operating System](computer-science/operating-system.md)
 * [Data Communication](computer-science/data-communication/README.md)
-  * [Page 1](computer-science/data-communication/page-1.md)
+  * [데이터 통신이란?](computer-science/data-communication/undefined.md)
 * [Software Engineering](computer-science/software-engineering.md)
+* [Network Programming](computer-science/network-programming/README.md)
+  * [Linux 기본](computer-science/network-programming/linux.md)
 
 ## DevLog
 

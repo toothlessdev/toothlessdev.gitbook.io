@@ -50,7 +50,11 @@ export async function getStaticProps(context : GetStaticPropsContext) {
 
 ## 📖 동적 라우트에서 getStaticPaths 를 통한 SSG
 
-NextJS 에서 기본적으로 Pre-Rendering 을 진행하기 때문에,\
+NextJS 에서 모든 페이지는 Pre-Render 되지만, `[id].tsx [...slug].tsx` 와 같은 동적 라우트에 대한 페이지들은 Pre-Render 되지 않습니다.
+
+동적 라우트에 대한 페이지는 여러 페이지로 이루어지기 때문에,\
+NextJS 는 얼마나 많은 페이지들을 사전 렌더링해야할지 모릅니다.
+
 동적인 라우트에 대해서 NextJS 가 페이지들을 사전렌더링 하도록 `getStaticPaths` 를 사용해 인식해주어야 합니다.
 
 getStaticPaths 는 paths, fallback 프로퍼티를 포함한 객체를 리턴해야합니다.
