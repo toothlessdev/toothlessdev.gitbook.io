@@ -192,17 +192,60 @@ JWT 토큰을 이용하면 토큰 탈취가 발생하는경우, 세션 방식처
 Access Token, Refresh 토큰을 이용하여 인증 인가를 구현합니다.
 
 두 토큰 모두 JWT 기반의 토큰이지만, Refresh Token 은 Access Token 을 재발급 받는 용도로 사용합니다.\
-자주 사용되는 Access Token 은 유효기간을 짧게 하여 Token 이 탈취돼도 탈취자가 오래 사용하지 못하도록 방지할 수 있습니다.
+자주 사용되는 <mark style="background-color:orange;">Access Token 은 유효기간을 짧게 하여 Token 이 탈취돼도 탈취자가 오래 사용하지 못하도록 방지</mark>할 수 있습니다.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## 📖 (참고) CSRF 공격
+
+사용자의 인증정보를 탈취해 공격을 하는 CSRF 에 대해 살펴보겠습니다
+
+### ✏️ CSRF 공격?
+
+CSRF (Cross Site Request Forgery) 는 한국어로 번역하면 사이트간 요청위조 입니다.\
+다른 사용자의 권한을 도용해, 조작된 요청을 보내는 방식으로 공격을 시도하는데, 어떻게 다른 사용자의 권한을 도용할 수 있을까요?
+
+CSRF 공격이 진행되려면 다음 두 조건을 만족해야 합니다.
+
+> 사용자가 <mark style="background-color:orange;">**로그인한 상태**</mark>로, 원본 사이트와 유사한 <mark style="background-color:orange;">**피싱 사이트에 접속**</mark>
 
 
 
+이해를 돕기위해 사용자가 A 에게 송금하는 상황을 가정해보겠습니다.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+사용자는 로그인 되어있는 상태이기 때문에, Session ID, Token 을 탈취해 조작된 요청을 보낼 수 있습니다.
 
 
 
+### ✏️ CSRF 공격 방어
+
+> 1. **Referer 검증**
+
+Referer 검증은 Request 를 보내는 Referer 가 일치하는지 검사하는 방법입니다.\
+Referer 헤더는 HTTP 요청의 일부로 전송되는 헤더로, <mark style="background-color:orange;">요청을 보내는 웹 페이지의 출처</mark>를 가지고 있습니다.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Referer 헤더를 분석하여, 요청이 어디서 왔는지 확인하고, 다른 도메인에서의 요청을 제한하거나 보안을 강화할 수 있습니다.
 
 
 
-## 📖 클라이언트에서&#x20;
+> 2. **CSRF Token**
+
+사용자가 로그인할 때 마다, CSRF 토큰을 생성해 세션에 저장하고, 요청시에 Form, URL Parameter, HTTP Header 와 함께 전송합니다.
+
+```jsx
+<form>
+    <input type="text" placeholder="송금할 계좌번호" />
+    <input type="hidden" name="_csrf" value={CSRF_TOKEN} />
+</form>
+```
+
+서버측에서는 사용자의 요청을 받을 때 마다, CSRF 토큰을 비교해 일치하는지 검사합니다.
+
+CSRF 공격자는 사용자의 세션정보를 알지 못하기 때문에, CSRF 토큰을 함께 포함시키지 않으면, 올바른 요청을 보낼 수 없습니다.
 
 
 
@@ -226,5 +269,8 @@ Access Token, Refresh 토큰을 이용하여 인증 인가를 구현합니다.
 [https://docs.nestjs.com/security/authentication](https://docs.nestjs.com/security/authentication)\
 [https://velog.io/@tosspayments/Basic-%EC%9D%B8%EC%A6%9D%EA%B3%BC-Bearer-%EC%9D%B8%EC%A6%9D%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83](https://velog.io/@tosspayments/Basic-%EC%9D%B8%EC%A6%9D%EA%B3%BC-Bearer-%EC%9D%B8%EC%A6%9D%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83)\
 [https://datatracker.ietf.org/doc/html/rfc7234#section-3.2](https://datatracker.ietf.org/doc/html/rfc7234#section-3.2)\
+[https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Authorization](https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Authorization)\
+[https://nordvpn.com/ko/blog/xss-attack/](https://nordvpn.com/ko/blog/xss-attack/)\
+[https://nordvpn.com/ko/blog/csrf/](https://nordvpn.com/ko/blog/csrf/)\
 
 

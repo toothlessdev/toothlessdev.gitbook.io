@@ -30,7 +30,7 @@ const myVariable;
 
 자바스크립트에서는 자바스크립트 엔진에 의해 식별자가 가리키는 실제 메모리 공간에는 undefined 가 할당됍니다
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 자바스크립트 엔진은
 

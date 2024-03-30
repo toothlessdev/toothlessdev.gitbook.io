@@ -24,7 +24,7 @@ Virtual DOM 은 왜 도입되었을까요 ?\
 
 Chrome, Safari 에 들어가는 WebKit 엔진은 대략적으로 다음과 같은 과정을 거쳐 렌더링합니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 1. 먼저 HTML 을 브라우저의 렌더엔진이 파싱해서 <mark style="background-color:orange;">**DOM Tree**</mark> 를 생성합니다
 > 2. CSS 파일, Inline-Style 을 파싱하고 <mark style="background-color:orange;">**CSSOM Tree**</mark> 를 생성합니다.
@@ -270,7 +270,7 @@ list 렌더시 key prop 이 있어야한다는 워닝 메시지  재조정?때�
 
 이전 v dom 과 새로 생성된 v dom 비교
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -278,7 +278,7 @@ list 렌더시 key prop 이 있어야한다는 워닝 메시지  재조정?때�
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 첫번째 위치에 추가됌. 모든 요소가 제자리에 위치 하지 않앗다 생각하고 자식 노드를 새로 그리게 됌
 
@@ -319,7 +319,7 @@ fiber node 값을 state 에 가져옴
 
 커밋 = 변경사항 돔에 적용
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
