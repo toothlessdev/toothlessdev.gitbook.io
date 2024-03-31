@@ -32,7 +32,7 @@
   * [RDBMS 와 TypeORM Column](web-develop/nest-js/rdbms-typeorm-column.md)
   * [RDBMS 와 TypeORM Relationship](web-develop/nest-js/rdbms-typeorm-relationship.md)
   * [NestJS Controller](web-develop/nest-js/nestjs-controller.md)
-  * [Pagination](web-develop/nest-js/pagination.md)
+  * [Offset Based & Cursor Based Pagination](web-develop/nest-js/offset-based-and-cursor-based-pagination.md)
   * [NestJS Access, Refresh 토큰으로 인증인가 구현하기 (jwt & bcrypt)](web-develop/nest-js/nestjs-access-refresh-jwt-and-bcrypt.md)
 * [Redux JS](web-develop/redux-js/README.md)
   * [Redux 핵심 개념과 Flux 아키텍쳐](web-develop/redux-js/redux-flux.md)

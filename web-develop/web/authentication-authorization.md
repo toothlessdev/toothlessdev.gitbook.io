@@ -9,7 +9,7 @@
 
 > Stateless ? : Stateless (무상태) 는 서버가 클라이언트의 이전 상태를 보존하지 않는다는 의미입니다.
 
-이렇게 HTTP 프로토콜 위에서 동작하는 REST API 는 Stateless 하기 때문에,\
+따라서\
 각각의 요청은 독립적으로 처리되고, 한번 요청에 대한 응답이 전송되면, <mark style="background-color:orange;">이전 상태를 기억하지 못합니다</mark>.
 
 
