@@ -166,7 +166,7 @@ JWT 는 Header, Payload, Signature 세 부분으로 구성됍니다.
 >
 > (2) 서버는 해당 비밀키를 이용해 Signature 서명값이 올바른지 확인합니다
 >
-> (3) JWT 를 디코딩하여 payload 의 값을 이용해 API 에 필요한 데이터를 DB로부터 불러옵니다
+> (3) JWT 를 디코딩하여 payload 의 값을 이용해 사용자를 식별하고, 해당 사용자를 기반으로 API 에 필요한 데이터를 DB로부터 불러옵니다
 >
 > (4) 응답을 클라이언트에 전송합니다
 
@@ -189,7 +189,7 @@ JWT 는 Header, Payload, Signature 세 부분으로 구성됍니다.
 ### ✏️ Access, Refresh 토큰을 사용한 인증
 
 JWT 토큰을 이용하면 토큰 탈취가 발생하는경우, 세션 방식처럼 서버측에서 무효화 할 수 없기 때문에,\
-Access Token, Refresh 토큰을 이용하여 인증 인가를 구현합니다.
+Access Token, Refresh Token 을 이용하여 인증 인가를 구현합니다.
 
 두 토큰 모두 JWT 기반의 토큰이지만, Refresh Token 은 Access Token 을 재발급 받는 용도로 사용합니다.\
 자주 사용되는 <mark style="background-color:orange;">Access Token 은 유효기간을 짧게 하여 Token 이 탈취돼도 탈취자가 오래 사용하지 못하도록 방지</mark>할 수 있습니다.
