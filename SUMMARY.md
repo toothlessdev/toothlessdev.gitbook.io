@@ -71,6 +71,7 @@
   * [2023 회고 및 2024년 계획](devlog/devlog/2023-2024.md)
   * [\[Stocodi\] Vite 에서 NextJS 로 마이그레이션](devlog/devlog/stocodi-vite-nextjs.md)
 * [DEBUG 디버깅일지](devlog/debug/README.md)
+  * [Page 5](devlog/debug/page-5.md)
   * [\[DEBUG\] Vite SSR & Redux Persist, TypeError: storage.getItem is not a function](devlog/debug/debug-vite-ssr-and-redux-persist-typeerror-storage.getitem-is-not-a-function.md)
   * [\[DEBUG\] ReduxToolkit ThunkAction dispatch 할때 타입 에러해결](devlog/debug/debug-reduxtoolkit-thunkaction-dispatch.md)
 
