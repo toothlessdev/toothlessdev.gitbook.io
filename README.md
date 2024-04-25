@@ -5,11 +5,11 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 
 
-## 🦶 FootPrint 발자취
+### 🦶 FootPrint 발자취
 
 
 
-## 🛠️ TechStack 기술스택
+### 🛠️ TechStack 기술스택
 
 ![](https://img.shields.io/badge/REACT\_JS-151515?style=for-the-badge\&logo=react\&logoColor=61DAFB)
 
@@ -17,16 +17,16 @@ ReactJS 를 활용해 SPA&#x20;
 
 Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동기 작업을 수행 할 수 있습니다
 
-## 📖 Projects 프로젝트
+### 📖 Projects 프로젝트
 
-### Get-P WebSite
+#### Get-P WebSite
 
 **기간 :** 2024년 04월 \~\
 **사용기술 :** TypeScript / Vite / ReactJS / Redux Toolkit / Redux Thunk / Emotion CSS
 
 >
 
-### Stocodi WebSite
+#### Stocodi WebSite
 
 **기간 :** 2023년 09월 \~ 2023년 12월\
 **사용기술 :** TypeScript / Vite / ReactJS / Redux Toolkit / TanStack Query / SCSS / CSS Module / Docker
@@ -67,7 +67,7 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 
 
 
-## ⛳️ Activities 활동
+### ⛳️ Activities 활동
 
 2023.03 \~ 2023.12 - 경북대학교 멋쟁이사자처럼 11기 아기사자 Frontend\
 2023.09 \~ 2023.12 - 금융경제교육플랫폼 Stocodi 창업팀 Frontend Developer\
@@ -76,7 +76,7 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 
 
 
-## 🏆 Awards 수상내역
+### 🏆 Awards 수상내역
 
 2023.06 - GET-IT 해커톤 장려상 (Alcoholic)\
 2023.07 - 82 스타트업 X LIKELION USA 아이디어톤 Security 대상 (Luddit-Captcha)\
