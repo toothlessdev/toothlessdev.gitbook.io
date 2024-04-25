@@ -1,8 +1,10 @@
 # Table of contents
 
+* [About ME](README.md)
+
 ## Web Develop
 
-* [Git / GitHub](README.md)
+* [Git / GitHub](<README (2).md>)
   * [GithubAction 으로 ReactJS 프로젝트 CI 구축하기](web-develop/git-github/githubaction-reactjs-ci.md)
 * [Web](<README (1).md>)
   * [브라우저 렌더링 과정 How to render in Webkit](web-develop/web/how-to-render-in-webkit.md)
