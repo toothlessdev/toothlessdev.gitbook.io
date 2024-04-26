@@ -19,9 +19,16 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ***
 
-ReactJS 를 활용해 SPA&#x20;
+![](https://shields.io/badge/JavaScript-black?logo=javascript\&style=flat\&color=FF9A00) ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963)![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA) ![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020) ![](https://shields.io/badge/Redux\_Toolkit-black?logo=redux\&style=flat\&color=7648BA) ![](https://shields.io/badge/Tanstack\_Query-black?logo=reactquery\&style=flat\&color=720020)\
+![](https://shields.io/badge/CSS\_Module-black?logo=cssmodules\&style=flat\&color=202020) ![](https://shields.io/badge/Styled\_Components-black?logo=styledcomponents\&style=flat\&color=202020) ![](https://shields.io/badge/SCSS-black?logo=sass\&style=flat\&color=A9225C) \
+![](https://shields.io/badge/NestJS-black?logo=nestjs\&style=flat\&color=E0234E) ![](https://shields.io/badge/TypeORM-black?logo=nestjs\&style=flat\&color=E0234E) ![](https://shields.io/badge/SQLite-black?logo=sqlite\&style=flat\&color=003B57) ![](https://shields.io/badge/PostgreSQL-black?logo=postgresql\&style=flat\&color=033963) <img src="https://shields.io/badge/OracleDB-black?logo=oracle&#x26;style=flat&#x26;color=F80000" alt="" data-size="original">
 
-Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동기 작업을 수행 할 수 있습니다
+‣ ReactJS 를 활용해 SPA 를 구현할 수 있습니다\
+‣ Redux 의 Flux 아키텍쳐를 이해하고, 복잡한 클라이언트 상태를 관리 할 수 있습니다\
+‣ Redux Thunk, Redux Saga 를 통해 비동기 작업을 처리할 수 있습니다\
+‣ NextJS 페이지 라우터를 활용해, 적절한 렌더링 패턴 (SSG, ISR, SSR) 을 적용시킬 수 있습니다\
+‣ SCSS 의 import, mixin, include 를 활용하여, 중복되는 스타일시트를 줄일 수 있습니다\
+‣ NestJS 와 TypeORM 을 이용해 간단한 서버를 만들 수 있습니다
 
 
 
@@ -31,7 +38,7 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 
 ***
 
-### _✏️ KNU RoomMate_
+### _<mark style="background-color:orange;">✏️ KNU RoomMate</mark>_&#x20;
 
 **소개 : 성격 / 수면습관 / 생활습관 등에 따른 룸메이트 매칭 플랫폼**\
 **기간 : 2024.05 \~** \
@@ -39,11 +46,13 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 
 > 기간 : 2024.05 \~&#x20;
 
-### _✏️ Get-P WebSite_
+
+
+### _<mark style="background-color:orange;">✏️ Get-P WebSite</mark>_&#x20;
 
 **소개 : 대학생 외주 매칭 플랫폼**\
 **기간 :** 2024년 04월 \~\
-**사용기술 :** TypeScript / Vite / ReactJS / Redux Toolkit / Redux Thunk / Redux Persist / Emotion CSS
+**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963)![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA)![](https://shields.io/badge/Redux\_Toolkit-black?logo=redux\&style=flat\&color=7648BA)![](https://shields.io/badge/Redux\_Persist-black?logo=redux\&style=flat\&color=7648BA)![](https://shields.io/badge/Vite\_SSR-black?logo=vite\&style=flat\&color=512BD4)
 
 {% embed url="https://github.com/Principes-Artis-Mechanicae/get-p-frontend" %}
 
@@ -53,7 +62,7 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 >
 > ‣ 회원가입 퍼널에서 사용자로부터 입력받은 복잡한 상태를 Redux Thunk Action 을 사용해 처리했습니다
 >
-> ‣ 구현 전, 프론트엔드와 컴포넌트&#x20;
+> ‣ 기존 useInputValidation 커스텀 훅에서 React Hook Form / ZOD 로 마이그레이션을 통해 런타입 타입 검증을 진행하였습니다
 
 **✓ UI / UX 개선**
 
@@ -66,12 +75,22 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 > ‣ 구현 전, 프론트엔드 팀원들과 재사용성 측면에서 컴포넌트를 분류하고 분류한 컴포넌트에 대한 요구사항을 문서화하였습니다
 >
 > ‣ Jira , Confluence 를 이용한 애자일 기반의 프로젝트를 진행하며, 커뮤니케이션 능력을 향상시켰습니다
+>
+> ‣ 프로젝트 규모가 커짐에 따라 FSD (기능 분할 설계) 아키텍쳐를 적용하였습니다
 
 **✓ 성능개선**
 
 > ‣ Tanstack Query 를 사용해&#x20;
+>
+> ‣ Lazy Loading / Suspense 를 통한 코드 스플리팅을 이용해 FCP / LCP 등 초기 렌더링 속도를 향상시켰습니다
+>
+> ‣ Vite SSR 플러그인을 통해 서버사이드 렌더링을 적용시켰습니다
 
-### _✏️ Stocodi_
+
+
+
+
+### _<mark style="background-color:orange;">✏️ Stocodi</mark>_&#x20;
 
 **소개 : 금융 / 경제 교육 플랫폼**\
 **기간 :** 2023년 09월 \~ 2023년 12월\
@@ -115,18 +134,30 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 >
 > ‣ Lazy Loading / Suspense 를 통한 코드 스플리팅을 이용해 FCP / LCP 등 초기 렌더링 속도를 향상시켰습니다\
 > (Chrome 빠른 3G 기준 LightHouse 지표 45점 / FCP 5.9s / LCP 5.9s -> 82점 / FCP 1.0s / LCP 1.5s 로 개선)
->
+
+
+
+
+
 >>
 
-### _✏️ UdongSari_
+### _<mark style="background-color:orange;">✏️ UdongSari</mark>_&#x20;
 
-**기간 :** 2023.?? \~
+**소개 : 아마추어 사진작가와 이용자를 연결해주는 플랫폼 (우리동네 사진작가 리스트)**\
+**기간 :** 2023.09 \~\
+사용기술 : ![](https://shields.io/badge/JavaScript-black?logo=javascript\&style=flat\&color=FF9A00)![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA)![](https://shields.io/badge/Redux\_Toolkit-black?logo=redux\&style=flat\&color=7648BA)![](https://shields.io/badge/SCSS-black?logo=sass\&style=flat\&color=A9225C)![](https://shields.io/badge/SocketIO-black?logo=socketdotio\&style=flat\&color=202020)
 
+**✓ 구현**
+
+> ‣ 복잡한 상태를 Redux Toolkit 으로 관리하고, Redux Thunk Action 을 통해 서버 상태를 관리하고 비동기 작업을 처리했습니다
 >
+> ‣ WebSocket 을 이용해 채팅방 기능 구현을 시도하였습니다
 
->
 
-### _✏️ Alcoholic_
+
+
+
+### _<mark style="background-color:orange;">✏️ Alcoholic</mark>_&#x20;
 
 **소개 : 한국 전통주 시장 부흥을 위한 전통주 MBTI 및 성향에 따른 술 추천 서비스**\
 **기간 :** 2023.05\
@@ -159,6 +190,7 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 
 ***
 
+2023.05 - 멋쟁이사자처럼 11기 교내 아이디어톤 대상 (DeadLock)\
 2023.06 - GET-IT 해커톤 장려상 (Alcoholic)\
 2023.07 - 82 스타트업 X LIKELION USA 아이디어톤 Security 대상 (Luddit-Captcha)\
 2023.09 - 멋쟁이사자처럼 11기 대경권 연합해커톤 대상 (UdongSari)
@@ -179,9 +211,10 @@ Redux Toolkit  flux 아키텍쳐를 이해하고 thunk action 을 통해 비동�
 
 >
 
-#### WhereIsTrashBin 어디있쓰
+#### WhereIsMyTrashBin 어디있쓰
 
 >
 
 #### Luddit-Captcha 러딧캡챠
 
+>
