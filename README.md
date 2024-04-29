@@ -20,7 +20,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 ***
 
 ![](https://shields.io/badge/JavaScript-black?logo=javascript\&style=flat\&color=FF9A00) ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963)![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA) ![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020) ![](https://shields.io/badge/Redux\_Toolkit-black?logo=redux\&style=flat\&color=7648BA) ![](https://shields.io/badge/Tanstack\_Query-black?logo=reactquery\&style=flat\&color=720020)\
-![](https://shields.io/badge/CSS\_Module-black?logo=cssmodules\&style=flat\&color=202020) ![](https://shields.io/badge/Styled\_Components-black?logo=styledcomponents\&style=flat\&color=202020) ![](https://shields.io/badge/SCSS-black?logo=sass\&style=flat\&color=A9225C) \
+![](https://shields.io/badge/CSS\_Module-black?logo=cssmodules\&style=flat\&color=202020) ![](https://shields.io/badge/Styled\_Components-black?logo=styledcomponents\&style=flat\&color=202020) ![](https://shields.io/badge/SCSS-black?logo=sass\&style=flat\&color=A9225C) ![](https://shields.io/badge/Tailwind\_CSS-black?logo=tailwindcss\&style=flat\&color=033963)\
 ![](https://shields.io/badge/NestJS-black?logo=nestjs\&style=flat\&color=E0234E) ![](https://shields.io/badge/TypeORM-black?logo=nestjs\&style=flat\&color=E0234E) ![](https://shields.io/badge/SQLite-black?logo=sqlite\&style=flat\&color=003B57) ![](https://shields.io/badge/PostgreSQL-black?logo=postgresql\&style=flat\&color=033963) <img src="https://shields.io/badge/OracleDB-black?logo=oracle&#x26;style=flat&#x26;color=F80000" alt="" data-size="original">
 
 ‣ ReactJS 를 활용해 SPA 를 구현할 수 있습니다\
@@ -45,6 +45,22 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 **사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963)![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020)![](https://shields.io/badge/NestJS-black?logo=nestjs\&style=flat\&color=E0234E)![](https://shields.io/badge/TypeORM-black?logo=nestjs\&style=flat\&color=E0234E)![](https://shields.io/badge/SocketIO-black?logo=socketdotio\&style=flat\&color=202020)![](https://shields.io/badge/PostgreSQL-black?logo=postgresql\&style=flat\&color=033963)
 
 > 기간 : 2024.05 \~&#x20;
+
+
+
+### _<mark style="background-color:orange;">✏️ Lingo</mark>_&#x20;
+
+**소개 : 의료 번역 AI 플랫폼 (김재일 교수님 LAB Project)**\
+**기간 : 2024.05 \~** \
+**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020)&#x20;
+
+
+
+### _<mark style="background-color:orange;">✏️ SaveMyReceipt</mark>_&#x20;
+
+**소개 : 의료 번역 AI 플랫폼 (김재일 교수님 LAB Project)**\
+**기간 : 2024.05 \~** \
+**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020) ![](https://shields.io/badge/Tailwind\_CSS-black?logo=tailwindcss\&style=flat\&color=033963)
 
 
 
@@ -85,6 +101,8 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 > ‣ Lazy Loading / Suspense 를 통한 코드 스플리팅을 이용해 FCP / LCP 등 초기 렌더링 속도를 향상시켰습니다
 >
 > ‣ Vite SSR 플러그인을 통해 서버사이드 렌더링을 적용시켰습니다
+>
+> ‣ Skeleton 컴포넌트를 구현해 Layout Shift 를 최소화하였습니다
 
 
 
