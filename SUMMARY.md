@@ -70,7 +70,8 @@
 ## DevLog
 
 * [DEVLOG 개발일지](devlog/devlog/README.md)
-  * [Atomic 컴포넌트 디자인 패턴 도입기](devlog/devlog/atomic.md)
+  * [\[GET-P\] 기술스택 선택 컴포넌트 구현 (feat. ContextAPI, useReducer)](devlog/devlog/get-p-feat.-contextapi-usereducer.md)
+  * [\[Stocodi\] Atomic 컴포넌트 디자인 패턴 도입기](devlog/devlog/stocodi-atomic.md)
   * [tsyringe로 리액트에서 싱글톤 패턴을 사용해 의존성 주입하기](devlog/devlog/tsyringe.md)
   * [2023 회고 및 2024년 계획](devlog/devlog/2023-2024.md)
   * [\[Stocodi\] Vite 에서 NextJS 로 마이그레이션](devlog/devlog/stocodi-vite-nextjs.md)

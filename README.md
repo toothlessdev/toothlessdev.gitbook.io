@@ -11,7 +11,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 > ‣ _**운동을 취미로 하는 저는, 다양한 운동 애플리케이션을 사용하며 UI / UX 의 중요성을 알게 되었습니다**_
 >
-> 다양한 운동 애플리케이션을 사용하던 중, 내장된 기능들은 모두 비슷하지만 UI 에 따라 사용자의 경험이 크게 달라지는 것을 깨달았고 "프론트엔드 개발" 에 매료되었습니다.
+> 여러 운동 애플리케이션을 사용하던 중, 내장된 기능들은 모두 비슷하지만 UI 에 따라 사용자의 경험이 크게 달라지는 것을 깨달았고 "프론트엔드 개발" 에 매료되었습니다
 
 
 
@@ -62,6 +62,14 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 
 
+### _<mark style="background-color:orange;">✏️ KNU-Fest</mark>_&#x20;
+
+**소개 : 경북대학교 축제 홍보 및 안내 사이트**\
+**기간 : 2024.05** \
+**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA)
+
+>
+
 
 
 ### _<mark style="background-color:orange;">✏️ SaveMyReceipt</mark>_&#x20;
@@ -70,11 +78,9 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 **기간 : 2024.05 \~** \
 **사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020) ![](https://shields.io/badge/Tailwind\_CSS-black?logo=tailwindcss\&style=flat\&color=033963)
 
-
-
 **✓ DX 개선**
 
-> ‣ 생산성을 높이기 위해 Tailwind CSS 를 도입하였습니다
+> ‣ 생산성을 높이기 위해 Tailwind CSS 를 학습, 도입하였습니다
 
 
 
@@ -266,17 +272,25 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 
 
+<details>
 
+<summary>dd</summary>
+
+
+
+</details>
 
 ## 🍼 ToyProjects 토이 프로젝트
 
 ***
 
-#### AutoClipping 오토클리핑
+#### - AutoClipping 오토클리핑
 
->
+채팅 속도, 채팅 가속도, 채팅 내용 등을 분석해 생방송 중 하이라이트 부분을 추출해주는 서비스입니다
 
-#### Contents-Lab 콘텐츠랩
+> ‣ Python Requests 모듈을 사용해 Twitch TV API 로 부터 생방송 채팅 내역을 가져왔습니다
+
+#### - Contents-Lab 콘텐츠랩
 
 콘텐츠랩 번역 아르바이트 자동화 프로그램입니다.
 
@@ -286,17 +300,25 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 >
 > &#x20;
 
-#### WhereIsMyTrashBin 어디있쓰
+#### - WhereIsMyTrashBin 어디있쓰
 
 경북대학교 교양과목 디자인과 크리에이티브에서 개발한\
 "환경문제 (쓰레기 배출) 해결을 위한 쓰레기통 위치 공유 및 업사이클링 거래 플랫폼" 입니다
 
 > ‣ Kakao MAP API 와 공공데이터 포털 API 를 사용해 사용자 위치 주변의 쓰레기통 위치를 표시하도록 구현하였습니다
 
-#### Luddit-Captcha 러딧캡챠
+#### - Luddit-Captcha 러딧캡챠
 
 Captcha 의 취약점을 개선하기 위해 Stable Diffusion 모델을 사용한 프롬프트 기반의 Captha
 
 > ‣ 해당 서비스의 랜딩페이지를 구현하였습니다
 >
 > ‣ 웹 사이트 보안과 관련된 취약점에 대해 공부하였습니다 (JWT, CSRF, XSS)
+
+#### - Adv-Web-Programming 고급 웹 프로그래밍
+
+컴퓨터학부 고급 웹 프로그래밍 수업에서 진행한 과제입니다
+
+> ‣ NestJS 와 TypeORM, SQLite 를 활용해 CRUD 서버를 구축하였습니다
+>
+> ‣&#x20;

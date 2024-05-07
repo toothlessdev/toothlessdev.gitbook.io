@@ -35,7 +35,7 @@ Message, Sender, Receiver, Transmission Medium, Protocol 로 구성되어 있습
 4. Transmission Medium : 물리적 신호를 보내는 매체로, 유선 / 무선으로 생각하면 됍니다.
 5. <mark style="background-color:orange;">Protocol</mark> : 전송 규약으로 쉽게 말해 뭐라고 물으면 뭐라고 대답해야할지 규칙이라고 생각하면 됍니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### ✏️ Data Flow&#x20;
 
@@ -68,7 +68,7 @@ Message, Sender, Receiver, Transmission Medium, Protocol 로 구성되어 있습
 
 Network 의 Topology 는 네트워크 Device (Node) 들의 Link, 연결관계를 Geometric Representaion 기하학적으로 표현한 것 입니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### ✏️ LAN & WAN
 

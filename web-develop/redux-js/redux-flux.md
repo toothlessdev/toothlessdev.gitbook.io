@@ -49,7 +49,7 @@ PHP 기반의 웹 프레임워크는 기본적으로 MVC (Model - View - Control
 
 라는 단점으로 다가왔습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 실제로 Meta (Facebook) 에서는, Facebook에 접속해서 메시지 혹은 댓글 알림에 숫자가 떠있어서 클릭해보면 아무런 메시지가 없는 버그가 발생한 적이 있었습니다. 클릭하면 알림은 사라지지만, 잠시 후에 알림이 다시 나타나고 클릭해보면 아무런 메시지가 없는 버그였습니다.
 
@@ -81,7 +81,7 @@ PHP 기반의 웹 프레임워크는 기본적으로 MVC (Model - View - Control
 
 하지만, Container-Presenter 패턴을 이용해 만들었을때, 컴포넌트 구조가 복잡해짐에 따라, 하위 컴포넌트에 값을 전달하기 위해, <mark style="background-color:yellow;">Props Drilling Problem</mark> 이 발생하게 됩니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### ✏️ Flux 아키텍쳐
 
@@ -89,7 +89,7 @@ Container-Presenter 패턴에서 발생한 Prop Drilling 을 통해 데이터를
 
 그래서 단방향 데이터 흐름을 활용한 리액트용 애플리케이션 아키텍쳐인 Flux 아키텍쳐가 탄생했습니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 데이터를 변화시키려는 동작(Action) 이 발생하면\
 Dispatcher 는 Action 을 받아 Redux 에 Action 이 발생했음을 알리고,\
@@ -163,7 +163,7 @@ Redux 는 다음과 같은 요소로 구성되어 있습니다.
 
 Redux 의 구성요소와 함께 Flux 아키텍쳐가 어떻게 적용되어 Redux 의 상태가 변화하고, View 에 반영되는지 이전에 봤던 그림과 함께 알아보겠습니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. 먼저 View 에서 Action 이 만들어지고 Dispatch 됍니다
 2. Dispatch 된 Action 은 현재 state 와 함께 Reducer 로 전달되고

@@ -85,13 +85,13 @@ app.listen(PORT, () => {
 Vite SSR 가 서버사이드에서 렌더링을 한 페이지를 응답으로 잘 전송하다가,\
 Redux Persist 를 사용하면서 부터 서버사이드 렌더링에 오류가 발생했습니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 오류가 발생해서 catch 까지 됐는데, \
 `vite.ssrFixStacktrace( )` 에서 오류가 발생해,\
 오류의 근원지를 찾기 위해 try catch 문을 제거하고 다시 실행 했습니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -280,7 +280,7 @@ export type RootState = ReturnType<typeof store.getState>;
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 하지만, 서버에서 사전 렌더링한 HTML 에 hydration 이 다르게 되어\
 클라이언트에서 렌더링이 한번 더 일어났고, 두번씩이나 렌더링 되었습니다
