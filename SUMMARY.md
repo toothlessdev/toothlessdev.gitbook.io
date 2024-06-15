@@ -27,6 +27,7 @@
   * [FSD Architecture (기능분할설계)](web-develop/react-js/fsd-architecture.md)
   * [CDD 와 StoryBook](web-develop/react-js/cdd-storybook.md)
 * [Next JS](web-develop/next-js/README.md)
+  * [NextJS 와 렌더링 패턴](web-develop/next-js/nextjs.md)
   * [NextJS SSG 정적사이트로 GithubPages 연동하기](web-develop/next-js/nextjs-ssg-githubpages.md)
   * [NextJS Pages 라우터](web-develop/next-js/nextjs-pages.md)
   * [getStaticProps, getStaticPaths 로 SSG ISR 적용하기](web-develop/next-js/getstaticprops-getstaticpaths-ssg-isr.md)

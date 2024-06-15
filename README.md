@@ -9,6 +9,10 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ***
 
+> ‣ 효율적이고 창의적인 문제해결의 매력
+>
+>
+
 > ‣ _**다양한 운동 애플리케이션을 사용하며 UI / UX 의 중요성을 알게 되었습니다**_
 >
 > 여러 운동 애플리케이션을 사용하던 중, 내장된 기능들은 모두 비슷하지만 UI 에 따라 사용자의 경험이 크게 달라지는 것을 깨달았고 "프론트엔드 개발" 에 매료되었습니다
@@ -27,7 +31,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ‣ ReactJS 를 활용해 SPA 를 구현할 수 있습니다\
 ‣ Redux 의 Flux 아키텍쳐를 이해하고, 복잡한 클라이언트 상태를 관리 할 수 있습니다\
-‣ Redux Thunk, Redux Saga 를 통해 비동기 작업을 처리할 수 있습니다\
+‣ Redux Thunk Actions 를 통해 비동기 작업을 처리할 수 있습니다\
 ‣ NextJS 페이지 라우터를 활용해, 적절한 렌더링 패턴 (SSG, ISR, SSR) 을 적용시킬 수 있습니다\
 ‣ SCSS 의 import, mixin, include 를 활용하여, 중복되는 스타일시트를 줄일 수 있습니다\
 ‣ NestJS 와 TypeORM 을 이용해 간단한 CRUD 서버를 만들 수 있습니다
@@ -43,10 +47,8 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 ### _<mark style="background-color:orange;">✏️ KNU RoomMate</mark>_&#x20;
 
 **소개 : 성격 / 수면습관 / 생활습관 등에 따른 룸메이트 매칭 플랫폼**\
-**기간 : 2024.05 \~** \
+**기간 : 개발 진행중**\
 **사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963)![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020)![](https://shields.io/badge/NestJS-black?logo=nestjs\&style=flat\&color=E0234E)![](https://shields.io/badge/TypeORM-black?logo=nestjs\&style=flat\&color=E0234E)![](https://shields.io/badge/SocketIO-black?logo=socketdotio\&style=flat\&color=202020)![](https://shields.io/badge/PostgreSQL-black?logo=postgresql\&style=flat\&color=033963)
-
->
 
 
 
@@ -55,8 +57,8 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 ### _<mark style="background-color:orange;">✏️ Lingo</mark>_&#x20;
 
 **소개 : 의료 번역 AI 플랫폼 (김재일 교수님 LAB Project)**\
-**기간 : 2024.05 \~** \
-**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020)&#x20;
+**기간 : 개발 진행중**\
+**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/NextJS-black?logo=nextdotjs\&style=flat\&color=202020) ![](https://shields.io/badge/Tailwind\_CSS-black?logo=tailwindcss\&style=flat\&color=033963)
 
 
 
@@ -64,15 +66,37 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ### _<mark style="background-color:orange;">✏️ KNU-Fest</mark>_&#x20;
 
-**소개 : 경북대학교 축제 홍보 및 안내 사이트**\
+**소개 : 경북대학교 축제 홍보 및 안내 사이트 (Google Analytics - 총 사용자 1.1만명, 총 이벤트 24만회)**\
 **기간 : 2024.05** \
-**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA)
+**사용기술 :** ![](https://shields.io/badge/TypeScript-black?logo=typescript\&style=flat\&color=033963) ![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA)![](https://img.shields.io/badge/AWS\_Route53-black?logo=amazonroute53\&style=flat\&color=512BD4) ![](https://img.shields.io/badge/AWS\_CloudFront-black?logo=amazonwebservices\&style=flat\&color=8C4FFF) ![](https://img.shields.io/badge/AWS\_S3-black?logo=amazons3\&style=flat\&color=006600)
 
 <details>
 
 <summary><strong>구현</strong></summary>
 
+‣ React-SVG 와 Intersection Observer 를 활용해 자체 Map 컴포넌트를 구현하였습니다
 
+‣ AWS Route53, S3, CloudFront 를 사용해 배포를 진행하였고, Github Actions 를 활용해 배포자동화 파이프라인을 구성하였습니다
+
+</details>
+
+<details>
+
+<summary>UX 개선</summary>
+
+‣ Browser FingerPrint 를 사용해 로그인 없이 서비스를 사용가능하도록 하여 UX 를 향상시켰습니다
+
+‣ 구글 애널리틱스로 분석한 방문 페이지별 세션수를 활용해 Lazy 로딩을 적용시켜 FCP 를 향상시켰습니다
+
+</details>
+
+<details>
+
+<summary>DX 개선</summary>
+
+‣ 공통된 스타일을 추출, 디자인 시스템을 만들어 DX 와 생산성을 높였습니다
+
+‣ useBooth, useVisitor 등 커스텀 훅 8개를 만들어 비스니스 로직의 재사용성을 높였습니다
 
 </details>
 
@@ -90,7 +114,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 <summary><strong>DX 개선</strong></summary>
 
-‣ 생산성을 높이기 위해 Tailwind CSS 를 학습, 도입하였습니다
+‣ 생산성을 높이기 위해 Headless UI 및 Tailwind CSS 를 학습, 도입하였습니다
 
 </details>
 
@@ -178,9 +202,9 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ‣ Mobile / Tablet 에 대한 Figma 디자인이 없음에도 Flex Grid 를 이용해 BreakPoint 를 기준으로 반응형 페이지로 구현하였습니다
 
-‣ T-Syringe 를 활용해 API 호출과 실제 서비스를 추상화한 클래스를 구현, 의존성 주입 / 싱글톤 패턴 적용을 시도했습니다
+‣ T-Syringe 를 활용해 API 호출과 실제 서비스를 추상화한 클래스를 구현, 의존성 주입 / 싱글톤 패턴 적용을 시도했습니다 ([https://github.com/Stocodi/stocodi-web-legacy/pull/114](https://github.com/Stocodi/stocodi-web-legacy/pull/114))
 
-‣ 금융역량테스트 페이지 구현시, 문항의 선택지에 이벤트 핸들러를 바인딩 하는 과정에서 발생한 문제를 해결하며 클로져 / 렉시컬 스코프에 대한 개념을 습득했습니다
+‣ 금융역량테스트 페이지 구현시, 문항의 선택지에 이벤트 핸들러를 바인딩 하는 과정에서 발생한 문제를 해결하며 클로져 / 렉시컬 스코프에 대한 개념을 습득했습니다  ([https://github.com/Stocodi/stocodi-web-legacy/issues/40](https://github.com/Stocodi/stocodi-web-legacy/issues/40))
 
 </details>
 
@@ -229,7 +253,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 
 
->>
+
 
 ### _<mark style="background-color:orange;">✏️ UdongSari</mark>_&#x20;
 
@@ -255,23 +279,29 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 **기간 :** 2023.09 \~\
 **사용기술** : ![](https://shields.io/badge/JavaScript-black?logo=javascript\&style=flat\&color=FF9A00)![](https://shields.io/badge/ReactJS-black?logo=react\&style=flat\&color=0086CA)![](https://shields.io/badge/Redux\_Toolkit-black?logo=redux\&style=flat\&color=7648BA)![](https://shields.io/badge/SCSS-black?logo=sass\&style=flat\&color=A9225C)![](https://shields.io/badge/Express\_JS-black?logo=express\&style=flat\&color=202020)![](https://shields.io/badge/Cloudflare-black?logo=cloudflare\&style=flat\&color=ECD53F)\
 **팀원** : FrontEnd 2 + BackEnd 3\
-**기여** : Figma UI Design (총 22화면 중 21화면 디자인) + Frontend Develop ()
+**기여** : Figma UI Design (총 22화면 중 21화면 디자인) + Frontend Develop (95%)
 
 {% embed url="https://github.com/Team-Brand-AI/brand-ai-frontend" %}
 
-**✓ 구현**
+<details>
 
-> ‣ 로그인, 회원가입, 마케팅 리스트 페이지, 마케팅 추가 페이지, 결과페이지, 설정페이지를 구현하였습니다
->
-> ‣ 이미지 업로드를 위해 ExpressJS / CloudFlare Image API 를 사용한 웹 서버를 구축하였습니다
+<summary><strong>구현</strong></summary>
 
-**✓ UI / UX 개선**
+‣ 로그인, 회원가입, 마케팅 리스트 페이지, 마케팅 추가 페이지, 결과페이지, 설정페이지를 구현하였습니다
 
-> ‣ PWA 를 적용시켜 UX 를 향상시켰습니다
+‣ 이미지 업로드를 위해 ExpressJS / CloudFlare Image API 를 사용한 웹 서버를 구축하였습니다
 
-**✓ DX 개선**
+</details>
 
->
+<details>
+
+<summary><strong>UI / UX 개선</strong></summary>
+
+‣ PWA 를 적용시켜 UX 를 향상시켰습니다
+
+</details>
+
+
 
 
 
