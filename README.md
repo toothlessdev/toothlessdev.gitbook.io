@@ -84,9 +84,9 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 <summary>UX 개선</summary>
 
-‣ Browser FingerPrint 를 사용해 로그인 없이 서비스를 사용가능하도록 하여 UX 를 향상시켰습니다
+‣ _**Browser FingerPrint**_ 를 사용해 로그인 없이 서비스를 사용가능하도록 하여 _**UX 를 향상**_시켰습니다
 
-‣ 구글 애널리틱스로 분석한 방문 페이지별 세션수를 활용해 Lazy 로딩을 적용시켜 FCP 를 향상시켰습니다
+‣ _**구글 애널리틱스**_로 분석한 방문 페이지별 세션수를 활용해 _**Lazy 로딩을 적용시켜 FCP 를 향상**_시켰습니다
 
 </details>
 
@@ -96,7 +96,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ‣ 공통된 스타일을 추출, 디자인 시스템을 만들어 DX 와 생산성을 높였습니다
 
-‣ useBooth, useVisitor 등 커스텀 훅 8개를 만들어 비스니스 로직의 재사용성을 높였습니다
+‣ useBooth, useVisitor 등 커스텀 훅을 적극 활용하여 비스니스 로직의 재사용성을 높였습니다
 
 </details>
 
@@ -136,9 +136,9 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 <summary><strong>구현</strong></summary>
 
-‣ Redux Persist 를 사용해 인증 / 인가 상태와 토큰을 저장하였습니다. Vite SSR 플러그인을 사용해 Server Side Rendering 중 Persist Storage 의 부재로인한 Hydration 에러를 해결하면서 React Server API 와 Server Side Rendering 의 동작원리를 습득하였습니다
+‣ Redux Persist 를 사용해 인증 / 인가 상태와 토큰을 저장하였습니다. Vite SSR 플러그인을 사용해 Server Side Rendering 중 Persist Storage 의 부재로인한 Hydration 에러를 해결하면서 React Server API 와 Server Side Rendering 의 동작원리를 습득하였습니다 ([https://github.com/Principes-Artis-Mechanicae/get-p-frontend/issues/18](https://github.com/Principes-Artis-Mechanicae/get-p-frontend/issues/18))
 
-‣ 회원가입 퍼널에서 사용자로부터 입력받은 복잡한 상태를 Redux Thunk Action 을 사용해 처리했습니다
+‣ 회원가입 퍼널에서 사용자로부터 입력받은 복잡한 상태를 Redux Thunk Action 을 사용해 처리했습니다 ([https://github.com/Principes-Artis-Mechanicae/get-p-frontend/blob/develop/src/store/thunk/auth.thunk.ts](https://github.com/Principes-Artis-Mechanicae/get-p-frontend/blob/develop/src/store/thunk/auth.thunk.ts))
 
 ‣ 기존 useInputValidation 커스텀 훅에서 React Hook Form / ZOD 로 마이그레이션을 통해 런타입 타입 검증을 진행하였습니다
 
@@ -212,7 +212,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 <summary><strong>UI / UX 개선</strong></summary>
 
-‣ 실 사용자로부터의 피드백을 통해 총 72개의 요구사항을 반영시켜 UI / UX 를 개선시켰습니다
+‣ 실 사용자로부터의 피드백을 통해 총 72개의 요구사항을 반영시켜 UI / UX 를 개선시켰습니다 ([https://github.com/Stocodi/stocodi-web-legacy/issues?q=is%3Aissue+is%3Aclosed](https://github.com/Stocodi/stocodi-web-legacy/issues?q=is%3Aissue+is%3Aclosed))
 
 </details>
 

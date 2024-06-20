@@ -67,6 +67,8 @@
   * [데이터 통신이란?](computer-science/data-communication/undefined.md)
 * [Software Engineering](computer-science/software-engineering.md)
 * [Network Programming](computer-science/network-programming/README.md)
+  * [소켓 프로그래밍에서 사용되는 C 기본 함수들](computer-science/network-programming/c.md)
+  * [Ch07 TCP 기반의 Half Close](computer-science/network-programming/ch07-tcp-half-close.md)
   * [Linux 기본](computer-science/network-programming/linux.md)
 
 ## DevLog
