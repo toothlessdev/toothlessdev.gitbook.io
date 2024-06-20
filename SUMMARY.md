@@ -69,6 +69,8 @@
 * [Network Programming](computer-science/network-programming/README.md)
   * [소켓 프로그래밍에서 사용되는 C 기본 함수들](computer-science/network-programming/c.md)
   * [Ch07 TCP 기반의 Half Close](computer-science/network-programming/ch07-tcp-half-close.md)
+  * [Ch10 멀티 프로세스 소켓통신](computer-science/network-programming/ch10.md)
+  * [Ch18 멀티스레드 소켓통신](computer-science/network-programming/ch18.md)
   * [Linux 기본](computer-science/network-programming/linux.md)
 
 ## DevLog
