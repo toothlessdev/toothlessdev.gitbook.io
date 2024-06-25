@@ -88,4 +88,6 @@
 
 ## PROJECT
 
-* [Page](project/page.md)
+* [Save My Receipt](project/save-my-receipt/README.md)
+  * [SRP 원칙으로 리팩토링 하기](project/save-my-receipt/srp.md)
+  * [API 호출을 Service Layer 로 관심사 분리하기](project/save-my-receipt/api-service-layer.md)

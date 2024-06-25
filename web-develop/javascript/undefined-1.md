@@ -163,6 +163,8 @@ typeof function() {} // "function"
 
 ### ✏️ 암묵적 타입변환
 
+1. **문자열 연결 연산자**
+
 \+ 연산자에 피연산자중 하나 이상이 문자열이면 문자열 연결 연산자로 동작합니다
 
 ```javascript
@@ -172,11 +174,14 @@ typeof function() {} // "function"
 NaN + '' // "NaN"
 Infinity + '' // "Infinity"
 -Infinity + '' // "-Infinity"
+
 true + '' // "true"
 false + '' // "false"
+
 null + '' // "null"
 undefined + '' // "undefined"
 (Symbol()) + '' // Cannot convert a Symbol to a string
+
 ({}) + '' // "[object Object]"
 Math + '' // "[object Math]"
 [] + ''   // ""
@@ -184,6 +189,189 @@ Math + '' // "[object Math]"
 (function(){}) + '' // "function(){}"
 Array + '' // "function Array() { [native code] }"
 ```
+
+2. **숫자 타입 변환**
+
+산술 연산자는 숫자 값을 반환합니다. 피연산자를 숫자 타입으로 변환할 수 없는 경우에는 `NaN` 을 반환합니다
+
+```javascript
+1 - "1" // 0
+1 * 10 // 10
+1 / 'one' // NaN
+```
+
+\+ 단항 연산자를 사용하면 숫자 타입의 값이 아니면, 숫자 타입의 값으로 암묵적 타입 변환을 수행합니다
+
+```javascript
++"" // 0
++"0" // 0
++"1" // 1
++"string" // NaN
+
++true // 1
++false // 0
+
++null // 0
++undefined // 0
++Symbol() // Cannot Convert a Symbol value to a number
+
++{} // NaN
++[] // 0
++[10,20] // NaN
++(function(){}) // NaN
+```
+
+3. **불리언 타입으로 변환**
+
+제어문 또는 삼항 연산 조건자의 조건식은 평가시에 불리언 타입으로 암묵적 타입 변환을 수행합니다
+
+```javascript
+if("") //true
+if(true) // true
+if(0) // false
+if("str") // true
+if(null) // false
+```
+
+
+
+자바스크립트 엔진은 불리언 타입이 아닌 값을 Truthy 값 (참으로 평가되는 값)\
+또는 Falsy 값 (거짓으로 평가되는 값) 으로 구분합니다
+
+`false` `undefined` `null` `0, -0` `NaN` `''` 은 <mark style="background-color:orange;">**Falsy**</mark> 값으로 취급됩니다
+
+❗️`{ }` 와 `[ ]` 는 모두 <mark style="background-color:orange;">**Truthy**</mark> 값으로 취급됩니다
+
+
+
+### ✏️ 명시적 타입변환
+
+개발자의 의도에 따라 명시적으로 타입을 변경하기 위해서는
+
+1. 표준 빌트인 생성자 함수를 new 연산자 없이 호출
+2. 빌트인 메서드를 사용
+3. 암묵적 타입 변환 이용
+
+를 이용할 수 있습니다
+
+
+
+1. 문자열 타입으로 변환
+
+```javascript
+String(1) // "1"
+String(NaN) // "NaN"
+String(Infinity) // "Infinity"
+String(true) // "true"
+String(false) // "false"
+
+(1).toString() // "1"
+(NaN).toString() // "NaN"
+(Infinity).toString() // "Infinity"
+
+(true).toString() // "true"
+(false).toString() // "false"
+
+1 + "" // "1"
+NaN + "" // "NaN"
+Infinity + "" // "Infinity"
+true + "" // "true"
+false + "" // "false"
+```
+
+2. 숫자 타입으로의 변환
+
+```javascript
+Number("0") // 0
+Number("-1") // -1
+Number("10.53") // 10.53
+
+Number(true) // 1
+Number(false) // 0
+
+parseInt("0") // 0
+parseInt("-1") // -1
+parseInt("10.53") // 10.53
+
++"0" // 0
++"-1" // -1
++"10.53" // 10.53
+
++true // 1
++false // 0
+
+"0" * 1 // 0
+"-1" * 1 // -1
+"10.53" * 1 // 10.53
+
+true * 1 // 1
+false * 1 // 0
+```
+
+3. 불리언 타입으로 변환
+
+```javascript
+Boolean("x") //true
+Boolean("") //false
+Boolean("false") //true
+
+Boolean(0) //false
+Boolean(1) //true
+Boolean(NaN) //false
+Boolean(Infinity) //true
+
+Boolean(null) //false
+Boolean(undefined) //false
+
+Boolean({}) //true❗️
+Boolean([]) //true❗️
+
+!!"x" //true
+!!"" //false
+!!"false" //true
+
+!!0 //false
+!!1 //true
+!!NaN //false
+!!Infinity //true
+
+!!null //false
+!!undefined //false
+
+!!{} //true❗️
+!![] //true❗️
+```
+
+
+
+## 📖 단축평가
+
+### ✏️ 논리 연산자를 사용한 단축평가
+
+논리 연산자 `||` `&&` 표현식의 평가 결과는 불리언 값이 아닐 수 있습니다
+
+| 단축 평가 표현식           | 평가 결과    |
+| ------------------- | -------- |
+| true \|\| anything  | true     |
+| false \|\| anything | anything |
+| true && anything    | anything |
+| false && anything   | false    |
+
+
+
+### ✏️ 옵셔널 체이닝 연산자
+
+옵셔널 체이닝 연산자는 `?.` 좌항의 피연산자가 null 또는 undefined 인 경우, `undefined` 를 반환하고,\
+그렇지 않으면 우항의 프로퍼티 참조를 이어갑니다
+
+
+
+### ✏️ null 병합 연산자
+
+null 병합 연산자는 `??` 좌항의 피연산자가 `null` 또는 `undefined` 인 경우,\
+우항의 피연산자를 반환하고, 그렇지 않은 경우 좌항의 피연산자를 반환합니다
+
+`||` 는 Falsy 한 값이면 우항의 피연산자를 반환합니다
 
 
 

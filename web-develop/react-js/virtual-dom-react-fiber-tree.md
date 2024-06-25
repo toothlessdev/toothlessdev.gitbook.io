@@ -270,7 +270,7 @@ list 렌더시 key prop 이 있어야한다는 워닝 메시지  재조정?때�
 
 이전 v dom 과 새로 생성된 v dom 비교
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -278,7 +278,7 @@ list 렌더시 key prop 이 있어야한다는 워닝 메시지  재조정?때�
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 첫번째 위치에 추가됌. 모든 요소가 제자리에 위치 하지 않앗다 생각하고 자식 노드를 새로 그리게 됌
 
@@ -319,7 +319,7 @@ fiber node 값을 state 에 가져옴
 
 커밋 = 변경사항 돔에 적용
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
