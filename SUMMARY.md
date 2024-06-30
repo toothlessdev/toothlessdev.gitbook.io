@@ -41,7 +41,7 @@
   * [NestJS Controller](web-develop/nest-js/nestjs-controller.md)
   * [Offset Based & Cursor Based Pagination](web-develop/nest-js/offset-based-and-cursor-based-pagination.md)
   * [NestJS Access, Refresh 토큰으로 인증인가 구현하기 (jwt & bcrypt)](web-develop/nest-js/nestjs-access-refresh-jwt-and-bcrypt.md)
-  * [Page 4](web-develop/nest-js/page-4.md)
+  * [NestJS WebSocket 으로 채팅 구현하기](web-develop/nest-js/nestjs-websocket.md)
 * [Redux JS](web-develop/redux-js/README.md)
   * [Redux 핵심 개념과 Flux 아키텍쳐](web-develop/redux-js/redux-flux.md)
   * [Toolkit 없이 React 에서 Redux 사용하기](web-develop/redux-js/toolkit-react-redux.md)

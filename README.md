@@ -9,9 +9,9 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ***
 
-> ‣ 효율적이고 창의적인 문제해결의 매력
+> ‣ _**효율적이고 창의적인 문제해결의 매력**_
 >
->
+> 한국관광공사의 데이터베이스 번역본 업데이트 아르바이트를 Python 의 Selenium 을 통해 5\~6 배의 효율로 자동화 하였습니다. 이를 통해 프로그래밍의 효율적이고 창의적인 문제 해결에 매력을 느껴 개발자가 되고자 했습니다
 
 > ‣ _**다양한 운동 애플리케이션을 사용하며 UI / UX 의 중요성을 알게 되었습니다**_
 >
@@ -76,7 +76,7 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ‣ React-SVG 와 Intersection Observer 를 활용해 자체 Map 컴포넌트를 구현하였습니다
 
-‣ AWS Route53, S3, CloudFront 를 사용해 배포를 진행하였고, Github Actions 를 활용해 배포자동화 파이프라인을 구성하였습니다
+‣ AWS Route53, S3, CloudFront 를 사용해 배포를 진행하였고, Github Actions 를 활용해 <mark style="background-color:orange;">배포자동화</mark> 파이프라인을 구성하였습니다
 
 </details>
 
@@ -84,9 +84,9 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 <summary>UX 개선</summary>
 
-‣ _**Browser FingerPrint**_ 를 사용해 로그인 없이 서비스를 사용가능하도록 하여 _**UX 를 향상**_시켰습니다
+‣ _<mark style="background-color:orange;">**Browser FingerPrint**</mark>_ 를 사용해 로그인 없이 서비스를 사용가능하도록 하여 _**UX 를 향상**_시켰습니다
 
-‣ _**구글 애널리틱스**_로 분석한 방문 페이지별 세션수를 활용해 _**Lazy 로딩을 적용시켜 FCP 를 향상**_시켰습니다
+‣ _**구글 애널리틱스 GA**_ 로 분석한 <mark style="background-color:orange;">방문 페이지별 세션수</mark>를 활용해 _<mark style="background-color:orange;">**Lazy 로딩을 적용시켜 FCP 를 향상**</mark>_시켰습니다
 
 </details>
 
@@ -112,15 +112,19 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 <details>
 
+<summary><strong>UX 개선</strong></summary>
+
+‣ Skeleton 컴포넌트를 구현해 <mark style="background-color:orange;">Cumulative Layout Shift 를 최소화</mark>하였습니다
+
+</details>
+
+<details>
+
 <summary><strong>DX 개선</strong></summary>
 
 ‣ 생산성을 높이기 위해 Headless UI 및 Tailwind CSS 를 학습, 도입하였습니다
 
 </details>
-
-
-
-
 
 
 
@@ -138,9 +142,9 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ‣ Redux Persist 를 사용해 인증 / 인가 상태와 토큰을 저장하였습니다. Vite SSR 플러그인을 사용해 Server Side Rendering 중 Persist Storage 의 부재로인한 Hydration 에러를 해결하면서 React Server API 와 Server Side Rendering 의 동작원리를 습득하였습니다 ([https://github.com/Principes-Artis-Mechanicae/get-p-frontend/issues/18](https://github.com/Principes-Artis-Mechanicae/get-p-frontend/issues/18))
 
-‣ 회원가입 퍼널에서 사용자로부터 입력받은 복잡한 상태를 Redux Thunk Action 을 사용해 처리했습니다 ([https://github.com/Principes-Artis-Mechanicae/get-p-frontend/blob/develop/src/store/thunk/auth.thunk.ts](https://github.com/Principes-Artis-Mechanicae/get-p-frontend/blob/develop/src/store/thunk/auth.thunk.ts))
+‣ 회원가입 퍼널에서 <mark style="background-color:orange;">사용자로부터 입력받은 복잡한 상태를 Redux Thunk Action</mark> 을 사용해 처리했습니다 ([https://github.com/Principes-Artis-Mechanicae/get-p-frontend/blob/develop/src/store/thunk/auth.thunk.ts](https://github.com/Principes-Artis-Mechanicae/get-p-frontend/blob/develop/src/store/thunk/auth.thunk.ts))
 
-‣ 기존 useInputValidation 커스텀 훅에서 React Hook Form / ZOD 로 마이그레이션을 통해 런타입 타입 검증을 진행하였습니다
+‣ 기존 useInputValidation 커스텀 훅을 구현해 입력 검증을 진행하였습니다
 
 </details>
 
@@ -172,11 +176,11 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 ‣ Lazy Loading / Suspense 를 통한 코드 스플리팅을 이용해 FCP / LCP 등 초기 렌더링 속도를 향상시켰습니다
 
-‣ Vite SSR 플러그인을 통해 서버사이드 렌더링을 적용시켰습니다
+‣ Vite SSR 플러그인을 통해 자체 서버사이드 렌더링을 적용시켰습니다
 
-‣ Skeleton 컴포넌트를 구현해 Cumulative Layout Shift 를 최소화하였습니다
+‣ Skeleton 컴포넌트를 구현해 <mark style="background-color:orange;">Cumulative Layout Shift 를 최소화</mark>하였습니다
 
-‣ 토큰 만료시 Refresh 토큰을 사용해 토큰 재발급 시에 클라이언트에서 요청 전, JWT 를 Decode 를 하여 토큰이 만료되었는지 확인 후 토큰 재발급 요청을 진행시켜 토큰 재발급에 필요한 네트워크 트래픽을 감소시켰습니다
+‣ 토큰 만료시 Refresh 토큰을 사용해 토큰 재발급 시에 클라이언트에서 요청 전, JWT 를 Decode 를 하여 토큰이 만료되었는지 확인 후 토큰 재발급 요청을 진행시켜 <mark style="background-color:orange;">토큰 재발급에 필요한 네트워크 트래픽을 감소</mark>시켰습니다
 
 </details>
 
@@ -238,12 +242,12 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 <summary><strong>성능개선</strong></summary>
 
-‣ 기존의 WebPack / JS 기반의 CRA 프로젝트를 EsBuild 기반의 Vite 으로 마이그레이션 하여 빌드속도를 향상시켰습니다
+‣ 기존의 WebPack / JS 기반의 CRA 프로젝트를 EsBuild 기반의 <mark style="background-color:orange;">Vite / TS 로 마이그레이션</mark> 하여 빌드속도를 향상시켰습니다
 
-‣ 스크롤에 반응해 애니메이션이 적용되는 애니메이션을 구현하는 도중 기존의 Scroll Event 기반에서 Intersection Observer 를 사용해 성능을 개선시켰습니다
+‣ 스크롤에 반응해 애니메이션이 적용되는 애니메이션을 구현하는 도중 기존의 Scroll Event 기반에서 <mark style="background-color:orange;">Intersection Observer 를 사용해 성능을 개선</mark>시켰습니다
 
-‣ Lazy Loading / Suspense 를 통한 코드 스플리팅을 이용해 FCP / LCP 등 초기 렌더링 속도를 향상시켰습니다\
-(Chrome 빠른 3G 기준 LightHouse 지표 45점 / FCP 5.9s / LCP 5.9s -> 82점 / FCP 1.0s / LCP 1.5s 로 개선)
+‣ <mark style="background-color:orange;">Lazy Loading / Suspense</mark> 를 통한 코드 스플리팅을 이용해 FCP / LCP 등 초기 렌더링 속도를 향상시켰습니다\
+(Chrome 빠른 3G 기준 LightHouse 지표 45점 / <mark style="background-color:orange;">FCP 5.9s / LCP 5.9s -> 82점 / FCP 1.0s / LCP 1.5s</mark> 로 개선)
 
 </details>
 
@@ -263,11 +267,17 @@ Hello I'm Javascript Engineer KIM DAE GEON 😊\
 
 {% embed url="https://github.com/toothlessdev/Udongsari_Frontend" %}
 
-**✓ 구현**
+<details>
 
-> ‣ 복잡한 상태를 Redux Toolkit 으로 관리하고, Redux Thunk Action 을 통해 서버 상태를 관리하고 비동기 작업을 처리했습니다
->
-> ‣ WebSocket 을 이용해 채팅방 기능 구현을 시도하였습니다
+<summary><strong>구현</strong></summary>
+
+‣ 복잡한 상태를 Redux Toolkit 으로 관리하고, Redux Thunk Action 을 통해 서버 상태를 관리하고 비동기 작업을 처리했습니다
+
+‣ WebSocket 을 이용해 채팅방 기능 구현을 시도하였습니다
+
+</details>
+
+
 
 
 
@@ -388,5 +398,3 @@ Captcha 의 취약점을 개선하기 위해 Stable Diffusion 모델을 사용�
 컴퓨터학부 고급 웹 프로그래밍 수업에서 진행한 과제입니다
 
 > ‣ NestJS 와 TypeORM, SQLite 를 활용해 CRUD 서버를 구축하였습니다
->
-> ‣&#x20;
