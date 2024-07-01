@@ -29,7 +29,7 @@ NextJS 는 무엇일까요? NextJS 공식 웹사이트에 들어가면
 Code Splitting 을 위해서는 **React.lazy** 나 번들러 설정을 추가로 해주어야 합니다
 
 NextJS 는 리액트 기반의 웹 프레임워크이기 때문에 다음과 같은 핵심 기능들을 내부적으로 제공합니다.\
-그중에서 저는 <mark style="background-color:orange;">렌더링 패턴</mark>에 중점을 맞추어 발표를 하도록 하겠습니다
+그중에서 저는 <mark style="background-color:orange;">**렌더링 패턴**</mark>에 중점을 맞추어 발표를 하도록 하겠습니다
 
 
 
@@ -76,6 +76,8 @@ WAS (Web Application Server) 가 데이터베이스와 정보를 주고받으며
 
 ### ✏️ Operation 단계
 
+<figure><img src="../../.gitbook/assets/NextJS with Rendering Patterns.jpg" alt=""><figcaption></figcaption></figure>
+
 다음으로 **Render Tree 의 노드를 표시할 위치를 결정**하는 <mark style="background-color:orange;">Layout 단계</mark>와,\
 **Render Tree 를 순회하며 Node 를 그리는** <mark style="background-color:orange;">Paint</mark> 단계를 거쳐,
 
@@ -115,7 +117,7 @@ z-index 가 낮은 요소부터 차례로 레이어를 구성하는 composition 
 
 클라이언트가 특정 페이지에 접속하면, 정적인 HTML, CSS, JS 를 제공합니다.
 
-AWS S3 버킷과 같은 저장소에 올리거나, NginX 등을 사용해 정적인 페이지는 서빙합니다.
+AWS S3 버킷과 같은 저장소에 올리거나, NginX 등을 사용해 정적인 페이지는 서빙됩니다
 
 <figure><img src="../../.gitbook/assets/8.jpg" alt=""><figcaption></figcaption></figure>
 
