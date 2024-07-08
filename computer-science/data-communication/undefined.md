@@ -35,7 +35,7 @@ Message, Sender, Receiver, Transmission Medium, Protocol 로 구성되어 있습
 4. Transmission Medium : 물리적 신호를 보내는 매체로, 유선 / 무선으로 생각하면 됍니다.
 5. <mark style="background-color:orange;">Protocol</mark> : 전송 규약으로 쉽게 말해 뭐라고 물으면 뭐라고 대답해야할지 규칙이라고 생각하면 됍니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### ✏️ Data Flow&#x20;
 

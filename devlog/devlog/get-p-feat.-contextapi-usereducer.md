@@ -24,7 +24,7 @@
 
 ### ✏️ Accordion 컴포넌트
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 기본적으로 Accordion 컴포넌트는 css 의 `max-height` 프로퍼티 값을 변경해서 기능을 구현한다\
 초기 `max-height` 를 버튼 한칸 높이로 정해두고, Accordion 이 클릭되었을때 `max-height` 를 버튼 한칸 높이 X 하위 버튼요소 개수 높으로 설정하면 된다

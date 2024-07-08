@@ -194,7 +194,7 @@ Access Token, Refresh Token 을 이용하여 인증 인가를 구현합니다.
 두 토큰 모두 JWT 기반의 토큰이지만, Refresh Token 은 Access Token 을 재발급 받는 용도로 사용합니다.\
 자주 사용되는 <mark style="background-color:orange;">Access Token 은 유효기간을 짧게 하여 Token 이 탈취돼도 탈취자가 오래 사용하지 못하도록 방지</mark>할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 📖 (참고) CSRF 공격
 
