@@ -91,7 +91,7 @@ Redux Persist 를 사용하면서 부터 서버사이드 렌더링에 오류가 
 `vite.ssrFixStacktrace( )` 에서 오류가 발생해,\
 오류의 근원지를 찾기 위해 try catch 문을 제거하고 다시 실행 했습니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
