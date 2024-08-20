@@ -22,8 +22,6 @@
   * [JS 의 비동기 처리](web-develop/javascript/js.md)
 * [TypeScript](web-develop/typescript/README.md)
   * [기초 타입 이론](web-develop/typescript/undefined.md)
-* [Testing](web-develop/testing/README.md)
-  * [Frontend Testing](web-develop/testing/frontend-testing.md)
 * [React JS](web-develop/react-js/README.md)
   * [useState 와 useRef](web-develop/react-js/usestate-useref.md)
   * [리액트는 항상 단방향으로 데이터가 흐를까 ? useImperativeHandle](web-develop/react-js/useimperativehandle.md)
@@ -61,6 +59,9 @@
   * [RxJS 와 반응형 프로그래밍](web-develop/reactivex-js/rxjs.md)
 * [AWS](web-develop/aws/README.md)
   * [Page 1](web-develop/aws/page-1.md)
+* [Testing](web-develop/testing/README.md)
+  * [Frontend Testing](web-develop/testing/frontend-testing.md)
+  * [The error below may be caused by using the wrong test env... Consider using the "jsdom"](web-develop/testing/the-error-below-may-be-caused-by-using-the-wrong-test-env...-consider-using-the-jsdom.md)
 
 ## Computer Science
 
