@@ -22,6 +22,8 @@
   * [JS 의 비동기 처리](web-develop/javascript/js.md)
 * [TypeScript](web-develop/typescript/README.md)
   * [기초 타입 이론](web-develop/typescript/undefined.md)
+  * [compilerOptions : types, typeRoots](web-develop/typescript/compileroptions-types-typeroots.md)
+  * [module, moduleResolution, TS 가 모듈을 찾고 해석하는 방식](web-develop/typescript/module-moduleresolution-ts.md)
 * [React JS](web-develop/react-js/README.md)
   * [useState 와 useRef](web-develop/react-js/usestate-useref.md)
   * [리액트는 항상 단방향으로 데이터가 흐를까 ? useImperativeHandle](web-develop/react-js/useimperativehandle.md)
@@ -61,6 +63,7 @@
   * [Page 1](web-develop/aws/page-1.md)
 * [Testing](web-develop/testing/README.md)
   * [Frontend Testing](web-develop/testing/frontend-testing.md)
+  * [React, Jest 테스팅 환경설정](web-develop/testing/react-jest.md)
   * [The error below may be caused by using the wrong test env... Consider using the "jsdom"](web-develop/testing/the-error-below-may-be-caused-by-using-the-wrong-test-env...-consider-using-the-jsdom.md)
 
 ## Computer Science
@@ -72,8 +75,6 @@
 * [DataBase](computer-science/database/README.md)
   * [Page 3](computer-science/database/page-3.md)
 * [Operating System](computer-science/operating-system.md)
-* [Data Communication](computer-science/data-communication/README.md)
-  * [데이터 통신이란?](computer-science/data-communication/undefined.md)
 * [Software Engineering](computer-science/software-engineering.md)
 * [Network Programming](computer-science/network-programming/README.md)
   * [소켓 프로그래밍에서 사용되는 C 기본 함수들](computer-science/network-programming/c.md)
