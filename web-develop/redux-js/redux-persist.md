@@ -221,7 +221,7 @@ function defaultSerialize(data: any) {
 상태값들을 JSON.stringify 를 이용해 문자열로 치환합니다.\
 실제로 Persist 를 적용시키고 LocalStorage 를 확인하면 문자열로 치환되어 저장된 것을 확인 할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

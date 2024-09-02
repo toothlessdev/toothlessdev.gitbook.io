@@ -3,7 +3,7 @@
 이번에 진행하는 GET-P 프로젝트에서 다음과 같은 컴포넌트의 구현을 맡게 되었다\
 컴포넌트의 요구사항은 다음과 같다
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 상단에는 검색바가 존재하고, 검색시에, 하위 기술슽택이 존재하는 아코디언 컨테이너가 열린다
 * 아코디언 컨테이너를 누르면 색상이 변경되고, 컨테이너가 열려, 하위 아이템들이 보여진다
@@ -24,7 +24,7 @@
 
 ### ✏️ Accordion 컴포넌트
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 기본적으로 Accordion 컴포넌트는 css 의 `max-height` 프로퍼티 값을 변경해서 기능을 구현한다\
 초기 `max-height` 를 버튼 한칸 높이로 정해두고, Accordion 이 클릭되었을때 `max-height` 를 버튼 한칸 높이 X 하위 버튼요소 개수 높으로 설정하면 된다
@@ -100,7 +100,7 @@ export const TechStackAccordion: React.FC<ITechStackAccordionGroup> = ({ width, 
 
 ### ✏️ TechStackBadge 컴포넌트
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

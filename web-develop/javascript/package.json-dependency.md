@@ -1,12 +1,10 @@
+---
+description: >-
+  npm 으로 디자인시스템을 만들고 배포하면서, peerDependency 와 devDependency 와 같은 개념들을 공부하며 정리한
+  포스트입니다
+---
+
 # package.json 과 dependency
-
-> &#x20;npm 으로 디자인시스템을 만들고 배포하면서, peerDependency 와 devDependency 와 같은 개념들을 공부하며 정리한 포스트입니다
-
-
-
-
-
-
 
 ## 📖 Dependency 란?
 
@@ -17,7 +15,7 @@ dependency 를 사전에서 찾아보면 '의존' , '의존성' 이라는 뜻으
 
 이와 유사하게, 프로그래밍에서 'dependency (의존성)' 은 <mark style="background-color:orange;">**소프트웨어 구성요소가 다른 구성요소나 라이브러리에 의존하는 관계**</mark>를 의미합니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 위 그림에서 Project 에 `Package A` , `Package B` , `Package C` 를 설치를 해 개발을 한다고 했을때,\
 Project 는 `Package A` , `Package B` , `Pacakge C` 에 대한 의존성을 가지고 있다 라고 말합니다

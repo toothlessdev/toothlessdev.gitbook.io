@@ -10,7 +10,7 @@
 npm init jest@latest
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 명령어로 기본적인 `jest.config.ts` 파일을 생성하고,
 
