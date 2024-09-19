@@ -6,6 +6,7 @@
 
 * [Git / GitHub](<README (2).md>)
   * [GithubAction 으로 ReactJS 프로젝트 CI 구축하기](web-develop/git-github/githubaction-reactjs-ci.md)
+  * [Figma Design Token 으로 디자인 변경사항 코드에 반영하기](web-develop/git-github/figma-design-token.md)
 * [Web](<README (1).md>)
   * [브라우저 렌더링 과정 How to render in Webkit](web-develop/web/how-to-render-in-webkit.md)
   * [Margin vs Padding 어떤걸 써야 할까?](web-develop/web/margin-vs-padding.md)
@@ -62,6 +63,8 @@
   * [RxJS 와 반응형 프로그래밍](web-develop/reactivex-js/rxjs.md)
 * [AWS](web-develop/aws/README.md)
   * [AWS Lambda](web-develop/aws/aws-lambda.md)
+  * [AWS Cloudfront](web-develop/aws/aws-cloudfront.md)
+  * [서버리스 프레임워크 (AWS Lambda, DynamoDB)](web-develop/aws/aws-lambda-dynamodb.md)
 * [Testing](web-develop/testing/README.md)
   * [Frontend Testing](web-develop/testing/frontend-testing.md)
   * [React, Jest 테스팅 환경설정](web-develop/testing/react-jest.md)
@@ -99,6 +102,7 @@
 
 ## PROJECT
 
+* [동BTI 회고록 (AWS Lambda 약팔이..)](project/bti-aws-lambda-...md)
 * [Save My Receipt](project/save-my-receipt/README.md)
   * [SRP 원칙으로 리팩토링 하기](project/save-my-receipt/srp.md)
   * [API 호출을 Service Layer 로 관심사 분리하기](project/save-my-receipt/api-service-layer.md)

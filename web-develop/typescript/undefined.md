@@ -23,7 +23,7 @@
 >
 > 타입 `{ x : number; y? : string } 은 타입 { x : number }` 의 서브/슈퍼 타입 이다
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -49,7 +49,7 @@ PHP 기반의 웹 프레임워크는 기본적으로 MVC (Model - View - Control
 
 라는 단점으로 다가왔습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 실제로 Meta (Facebook) 에서는, Facebook에 접속해서 메시지 혹은 댓글 알림에 숫자가 떠있어서 클릭해보면 아무런 메시지가 없는 버그가 발생한 적이 있었습니다. 클릭하면 알림은 사라지지만, 잠시 후에 알림이 다시 나타나고 클릭해보면 아무런 메시지가 없는 버그였습니다.
 

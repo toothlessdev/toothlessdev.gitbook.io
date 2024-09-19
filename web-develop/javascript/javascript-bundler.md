@@ -25,7 +25,7 @@
 
 모듈간 의존성이 있는 경우 올바른 순서대로 로드되지 않으면 오류가 발생할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 다음과 같은 의존성 트리가 있을때, `Module C` 를 불러오기 전, `Module D` 가 로드되지 않는다면, undefined 오류가 발생할 수 있습니다.
 
