@@ -2,8 +2,6 @@
 
 ## 📖 NextJS
 
-<figure><img src="../../.gitbook/assets/1.jpg" alt=""><figcaption></figcaption></figure>
-
 안녕하세요 NextJS 웹 프레임 워크에 대해 발표하게 된 김대건입니다
 
 
