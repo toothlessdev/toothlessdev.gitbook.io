@@ -32,7 +32,7 @@
   * [Virtual DOM , React Fiber Tree와 리액트 렌더링](web-develop/react-js/virtual-dom-react-fiber-tree.md)
   * [React CSS IN JS](web-develop/react-js/react-css-in-js.md)
   * [tsyringe 로 리액트에서 싱글톤 패턴을 사용해 레이어드 아키텍쳐 분리하기](web-develop/react-js/tsyringe.md)
-  * [IntersectionObserver 로 무한 스크롤 구현하기 (with. Cursor Based Pagination)](web-develop/react-js/intersectionobserver-with.-cursor-based-pagination.md)
+  * [IntersectionObserver 로 무한 스크롤 구현하기 (with. Cursor Based Pagination)](web-develop/react-js/intersectionobserver-with.-cursor-based-pagination.md)
   * [CDD 와 StoryBook](web-develop/react-js/cdd-storybook.md)
   * [React Transition Group 톺아보기](web-develop/react-js/react-transition-group.md)
 * [Next JS](web-develop/next-js/README.md)
